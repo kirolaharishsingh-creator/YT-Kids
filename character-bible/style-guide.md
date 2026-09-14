@@ -23,7 +23,12 @@ generation so the channel reads as one show, not disconnected clips.
   size and at a glance while scrolling.
 - **Backgrounds:** minimal but specific (a riverbank, a palace courtyard, a
   forest clearing) — one clear location per shot, softly painted with
-  atmospheric depth, no clutter.
+  atmospheric depth, no clutter. **The forest itself is a locked, recurring
+  setting — see `world-bible/`** for the named world ("Neelvan") and its
+  fixed landmarks (the ancient well, the great banyan tree, the forest
+  clearing, the winding river). Reuse the locked location reference the same
+  way the mascot reference is reused, rather than inventing a new forest per
+  fable.
 
 Keep a fixed prompt fragment (the lines above, condensed) and append it to
 every single generation prompt, fable after fable, so the model's output stays

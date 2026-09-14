@@ -20,6 +20,7 @@ style) as 15–20 second AI-generated videos.
 ```
 docs/             Brand positioning, monetization & growth plan, production standards
 character-bible/  Visual style guide + reference briefs for consistent AI generation
+world-bible/      Locked recurring locations (the forest and its landmarks) for consistency
 scripts/          Finished and in-progress video scripts (narration + scene beats)
 research/         Source notes per fable — original story, variants, the moral
 video-projects/   Per-video folders tying together idea, script, shot list, status

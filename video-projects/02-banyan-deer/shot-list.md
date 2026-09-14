@@ -19,3 +19,9 @@ same voice/TTS setting as fable #1.
 **Status:** mascot locked and reference image in repo
 (`character-bible/mascot-peacock-final.png`) — ready to generate this
 fable's remaining shots.
+
+**Location consistency:** Shots 2–6 use the Forest Clearing and (implicitly,
+where the deer herds gather near it) the Great Banyan Tree landmarks from
+`world-bible/`. Once `neelvan-location-sheet.png` is generated and locked,
+feed the relevant panel(s) in as `image_references` on these shots so this
+fable's forest matches fable #1's and every future one.

@@ -30,6 +30,13 @@ rabbit's designs. Once you have that image, feed it back in as an
 consistent across the whole fable (same technique as the mascot: reference
 the actual output image, don't just repeat the text description).
 
+**Location consistency:** Shots 2–4 use the Forest Clearing landmark and
+Shots 4–6 use the Ancient Well landmark from `world-bible/`. Once
+`neelvan-location-sheet.png` is generated and locked, feed the relevant
+panel in as an additional `image_references` input on these shots alongside
+the lion/rabbit reference, so this fable's forest matches every other
+fable's forest.
+
 ### Shot 2 — Setup
 
 ```
