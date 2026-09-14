@@ -5,7 +5,7 @@ Each row = one AI generation. All prompts append the fixed style fragment from
 
 | # | Beat | Shot | Asset needed |
 |---|------|------|--------------|
-| 1 | Hook | Peacock mascot on branch, addressing camera, warm expression | Mascot reference image (generate first, reuse) |
+| 1 | Hook | Peacock mascot on branch, addressing camera, warm expression | Reuse mascot-peacock-final.png as image_references |
 | 2 | Setup | Wide: lion standing over bowing forest animals, rabbit at front | New generation |
 | 3 | Trick (a) | Rabbit walking calmly up to angry lion | New generation |
 | 4 | Trick (b) | Lion and rabbit approaching edge of stone well | New generation |
@@ -16,6 +16,6 @@ Each row = one AI generation. All prompts append the fixed style fragment from
 **Voiceover:** one continuous narration track per `scripts/lion-and-the-rabbit.md`,
 same voice/TTS setting to be reused for every future fable.
 
-**Status:** mascot design locked (see `character-bible/mascot-prompt.md`) —
-still pending the mascot reference image file upload, then this fable's own
-visual generation.
+**Status:** mascot locked and reference image in repo
+(`character-bible/mascot-peacock-final.png`) — ready to generate this
+fable's remaining shots.
