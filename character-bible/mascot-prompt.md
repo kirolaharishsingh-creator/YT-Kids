@@ -33,13 +33,41 @@ Character turnaround model sheet, four consistent full-body views in a row, all 
 
 ## Status
 
-✅ **Character design locked — final, no further iteration.** Generation
-`4ec59e46` (superseding `29dd7666`) fixed both outstanding issues (cropping,
-missing glasses in one view) while preserving the exact same design.
+✅ **`4ec59e46` is the currently locked reference** —
+`character-bible/mascot-peacock-final.png`, painterly fairy-tale illustration
+style, reviewed and confirmed (all four views uncropped, glasses consistent).
+This stays the active reference until/unless the candidate below is reviewed
+and approved as a replacement.
 
-✅ **Image file in repo.** `character-bible/mascot-peacock-final.png` —
-uploaded, reviewed, and confirmed. All four turnaround views fully visible
-with proper margin, glasses consistent across every view.
+⚠️ **Pending candidate — style change under consideration.** A newer
+generation (`8da7e0b2`, also `seedream_v4_5`, using the same identity
+reference) was run with a different prompt (below) that switches from
+painterly fairy-tale illustration to **cinematic 3D animated feature-film**
+rendering — a real style change, not just a fix. Not yet reviewed against an
+actual image output. **Do not treat this as locked until an image has been
+shared and approved** — send the generated image the same way as before
+(paste in chat) once ready.
+
+---
+
+## Candidate prompt — cinematic 3D style (pending review)
+
+```
+Create a premium cinematic 3D fairy-tale character turnaround from the attached reference. SAME peacock character in 4 evenly spaced full-body views: front, 3/4, side profile and back. Perfectly consistent face, eyes, beak, crown, spectacles, proportions, feathers, wings, legs and tail.
+
+Majestic, charming, warm and expressive peacock storyteller. Large sparkling dark-brown eyes, elegant golden crown with blue gemstone, round golden spectacles, rich royal-blue, turquoise and emerald iridescent feathers with highly detailed realistic feather texture and natural volume.
+
+Make the character feel alive and dimensional, with believable anatomy, natural posture, expressive eyes, realistic feather layering and soft contact shadows.
+
+High-end cinematic 3D animated feature-film quality, magical fairy-tale aesthetic, sophisticated character design, beautiful realistic materials and subtle cinematic lighting.
+
+BACKGROUND MUST BE PURE CLEAN WHITE, seamless white studio background, completely flat and distraction-free, no scenery, no props, no gradients, no texture. Soft natural studio shadow directly beneath each character for grounding.
+
+Wide horizontal composition, equal spacing, all four characters completely visible, including feet and entire tail. Sharp focus, professional character model sheet.
+
+CRITICAL: EXACT SAME CHARACTER in every view. No redesign, no different face, no changed accessories, no altered colors or proportions, no extra limbs, eyes or beaks, no distortion, no text, labels or watermark.
+```
 
 **This is now the reference image to pass via `image_references` on every
-future mascot shot, in every fable.**
+future mascot shot, in every fable — until/unless the candidate above
+replaces it.**
