@@ -16,4 +16,6 @@ Each row = one AI generation. All prompts append the fixed style fragment from
 **Voiceover:** one continuous narration track per `scripts/lion-and-the-rabbit.md`,
 same voice/TTS setting to be reused for every future fable.
 
-**Status:** not yet generated — pending mascot reference image creation.
+**Status:** mascot design locked (see `character-bible/mascot-prompt.md`) —
+still pending the mascot reference image file upload, then this fable's own
+visual generation.

@@ -1,20 +1,26 @@
-# Mascot Generation Prompt
+# Mascot Generation Prompt — 🔒 LOCKED FINAL
 
-**Character:** the narrator peacock (see `style-guide.md`) — fourth iteration.
-Myna rejected (too dark/moody). Parrot superseded before generation (not
-striking enough). Macaw tried and rejected (visually strong but not
-culturally grounded, and not what was wanted). First peacock version rejected
-as too soft/"beautification artist" — this version pushes for a sharper,
-more dramatic, regal "queen" presence with fuller plumage instead.
+**Character:** the narrator peacock (see `style-guide.md`). History: myna
+rejected (too dark/moody), parrot superseded before generation (not striking
+enough), macaw tried and rejected (visually strong but not culturally
+grounded), first peacock version had the right proportions/face/crest but
+lighting read as too soft, follow-up revisions over-corrected and were
+reverted. **This prompt — the original first-version wording — is the
+confirmed, locked final design.**
 **Composition:** turnaround / model sheet (front, 3/4, side, back)
-**Style:** classic fairy tale book illustration, but crisp/dramatic rather
-than soft — see `style-guide.md` for the full art-style rationale
-**Model used:** Nano Banana Pro (Google, via Higgsfield, or directly) — chosen
-because it accepts `image_references`, so this exact output image can be fed
-back in as a reference on every future mascot shot, rather than re-describing
-it from text each time.
-**Aspect ratio:** 16:9
-**Resolution:** 2K recommended (1K to save cost, 4K is overkill for a Shorts asset)
+**Style:** classic fairy tale book illustration — see `style-guide.md` for
+the full art-style rationale
+**Aspect ratio:** 16:9 · **Resolution:** 2K
+
+## Confirmed generation (the reference to use)
+
+| | |
+|---|---|
+| **Generation ID** | `29dd7666-534d-4164-935b-1538a6dba7f9` |
+| **Model** | `nano_banana_2` (not Nano Banana Pro as originally planned — Pro wasn't available on unlim, this generation used Nano Banana 2 instead and matches the locked prompt exactly) |
+| **Generated** | Sept 14, 2026 |
+| **Source** | https://higgsfield.ai/s/76eS7Eb7rCM |
+| **File in repo** | ⬜ Not yet uploaded — see Status below |
 
 ---
 
@@ -26,13 +32,13 @@ Character turnaround model sheet, four consistent full-body views in a row — f
 
 ## Status
 
-✅ **Locked in as final.** History: myna generated + rejected (too
-dark/moody), parrot planned but superseded, macaw generated + rejected
-(strong visuals but not culturally grounded / not preferred), first peacock
-version generated (proportions/face/crest/glasses right, lighting read as
-too soft/"beautification artist"), a lighting-only revision tried and also
-reverted, a second full revision over-corrected (proportions/face drifted)
-and was rejected. **This exact prompt — the original first-version wording,
-unmodified — is the confirmed final version to generate with.** Once
-generated, save the output image into this folder and update this doc + the
-shot lists to reference it.
+✅ **Character design locked.** The prompt above, the generation it produced
+(`29dd7666`), and the design description in `style-guide.md` are all final —
+no further iteration on the mascot's look, only production from here.
+
+⬜ **File upload still pending.** The image itself needs to be added to this
+folder as `mascot-peacock-final.png` (upload via GitHub — Claude can't fetch
+it directly, blocked by network policy) before it can be used as an
+`image_references` input on future generations. Until then, fable shot lists
+reference this doc as the source of truth for the mascot's design, but
+actual mascot shots can't be generated with image-reference conditioning yet.

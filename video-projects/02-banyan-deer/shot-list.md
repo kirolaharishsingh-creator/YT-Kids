@@ -16,5 +16,6 @@ from `character-bible/style-guide.md`.
 **Voiceover:** one continuous narration track per `scripts/banyan-deer.md`,
 same voice/TTS setting as fable #1.
 
-**Status:** not yet generated — pending mascot reference lock-in (see
-`character-bible/mascot-prompt.md`) and this fable's own visual generation.
+**Status:** mascot design locked (see `character-bible/mascot-prompt.md`) —
+still pending the mascot reference image file upload, then this fable's own
+visual generation.

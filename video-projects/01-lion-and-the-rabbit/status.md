@@ -6,7 +6,8 @@
 | Research | ⚠️ Draft — needs fact-check against primary Panchatantra source |
 | Script | ✅ Draft complete |
 | Shot list | ✅ Done |
-| Mascot reference generated | ⬜ Not started |
+| Mascot design locked | ✅ Done (see `character-bible/mascot-prompt.md`) |
+| Mascot reference file uploaded | ⬜ Pending |
 | Visuals generated | ⬜ Not started |
 | Voiceover recorded | ⬜ Not started |
 | Edited | ⬜ Not started |
