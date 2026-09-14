@@ -44,17 +44,23 @@ every fable opens and/or closes on the same narrator character.
   never a literal deity or religious figure. Keeps the channel clear of the
   religious-depiction risk already ruled out earlier. Perched gracefully on a
   branch or palace balustrade, in the same fairy-tale illustration style.
-- **Design:** richly feathered and jewel-toned, built to be the single most
-  eye-catching thing on screen — iridescent sapphire-blue neck and breast,
-  emerald-green back, teal and gold highlights, an iconic fan-shaped crest of
-  feathers atop the head, an elegant long tail with the classic peacock
-  "eye"-spot feather pattern, worn gracefully trailing/folded in standard
-  poses (not fully fanned open, so the character stays compact and readable
-  at small thumbnail size — a full fanned display is a possible special
-  "hero" pose for later, not the default). Delicate, elegant features, large
-  sparkling expressive eyes, soft warm expression, small delicate gold-rimmed
-  reading glasses (keeps the wise-narrator personality thread from earlier
-  designs — easy to drop if it reads as undercutting the elegance).
+- **Design:** richly, *fully* feathered and jewel-toned, built to be the single
+  most eye-catching thing on screen — a confident, regal **"queen" presence**,
+  not a soft/pretty portrait. Iridescent sapphire-blue neck and breast,
+  emerald-green back, teal and gold highlights, a tall ornate crown-like crest
+  of feathers atop the head (reads as a crown, not just a small tuft), full
+  voluminous layered plumage across the whole body — not just the tail — so
+  the character feels lush and abundant rather than sparse. An elegant long
+  tail with the classic peacock "eye"-spot feather pattern, worn gracefully
+  trailing/folded in standard poses (not fully fanned open, so the character
+  stays compact and readable at small thumbnail size — a full fanned display
+  is a possible special "hero" pose for later, not the default). Sharp, clear,
+  well-defined facial features (not soft-focus or hazy), confident direct
+  gaze, dramatic rather than gentle lighting, large expressive eyes, a
+  dignified regal expression, small delicate gold-rimmed reading glasses
+  (keeps the wise-narrator personality thread — easy to drop if it undercuts
+  the regal tone). Crisp, high-definition rendering throughout — never blurry,
+  hazy, or dim/gloomy in tone.
 - **Role:** delivers the hook line at the start ("Do you know what happens when
   a crow gets too clever...") and the moral at the end. The middle of the video
   is the fable itself, told in-scene without the mascot present.
