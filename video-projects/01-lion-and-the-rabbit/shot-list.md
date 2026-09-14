@@ -64,3 +64,36 @@ An old moss-covered stone well in a quiet forest clearing, water rippling and se
 ```
 
 **Aspect ratio for all shots:** 9:16 (vertical, matches the final Shorts format).
+
+---
+
+## Animation pass (Kling) — all 7 shots animated
+
+Each of the 7 shots (including both mascot shots) gets animated from its
+still image into a short video clip, then stitched together in editing.
+
+**Settings:**
+- Model: `kling3_0` (standard quality)
+- Duration: 3 seconds per clip (Kling's minimum — trim to each beat's exact
+  timing in the edit; total raw footage 21s trimmed down to the 18s final cut)
+- Sound: **off** — narration is added separately as one continuous voiceover
+  track per `scripts/lion-and-the-rabbit.md`, so Kling's built-in audio isn't
+  needed and costs more for nothing
+- Input: each shot's still image as `start_image`
+- Aspect ratio: 9:16
+
+**Confirmed cost (preflight-checked, no credits spent):** 4.5 credits per
+3-second clip × 7 shots = **~31.5 credits total** for the fully animated pilot.
+
+**Animation prompts** — keep these simple; the still image already carries
+the design, the animation prompt just needs to describe the *motion*:
+
+| Shot | Motion prompt |
+|---|---|
+| 1 (mascot hook) | Gentle idle sway, feathers softly shifting, blinking, addressing camera with warm expression |
+| 2 (setup) | Animals shifting nervously, lion's mane rippling slightly, subtle ambient forest motion (leaves, light) |
+| 3 (trick a) | Rabbit walking forward calmly, lion's chest heaving with anger, tail flicking |
+| 4 (trick b) | Rabbit gesturing toward the well, lion leaning forward to look, cautious movement |
+| 5 (payoff a) | Water rippling gently, reflection wavering, lion's reflected face reacting with sudden fury |
+| 6 (payoff b) | Water rippling outward from a splash, then slowly settling to stillness |
+| 7 (mascot moral) | Gentle idle sway, warm reassuring expression, subtle feather shimmer |
