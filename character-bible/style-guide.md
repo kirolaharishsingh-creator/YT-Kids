@@ -34,20 +34,22 @@ visually consistent even though the animal/human cast changes each time.
 To give the channel a recognizable face despite the cast changing every video,
 every fable opens and/or closes on the same narrator character.
 
-- **Character:** an old, wise **myna bird** (chosen because mynas are a
-  genuinely common storytelling narrator device in Indian folk tradition —
-  not tied to any specific existing fable's cast, so it stays neutral and
-  available across all stories) perched on a branch or windowsill, in the same
-  fairy-tale illustration style.
-- **Design:** cute and beautifully coloured, not a plain/realistic myna — glossy
-  deep black feathers with a rich iridescent blue-green-violet sheen (this is
-  actually true to real mynas' feather gloss, just exaggerated for beauty),
-  a vivid orange-yellow beak and matching bright eye-patch, soft rosy blush on
-  the cheeks, large sparkling expressive eyes, small reading glasses (this
-  detail exists purely for personality/branding, not literal accuracy), a
-  warm, kind expression. Slightly rounded, endearing proportions (a touch
-  bigger-headed/plumper than a real myna) to read as charming rather than
-  literal wildlife.
+- **Character:** a cheerful **parrot** (switched from an earlier myna design —
+  the myna's naturally dark/black plumage read as moody rather than kid-friendly
+  even with added color; a parrot solves this at the species level since bright
+  green/red coloring is natural to it, not something to fight for). Parrots are
+  just as legitimate a classic Indian storytelling-narrator bird as the myna —
+  see the "Tales of a Parrot" (Shuka Saptati) tradition — so this keeps the
+  same cultural grounding while being inherently more colorful and catchy.
+  Perched on a branch or windowsill, in the same fairy-tale illustration style.
+- **Design:** bright, cheerful, high-contrast coloring built to read instantly
+  at small Shorts thumbnail size — vivid grass-green plumage, a bold curved
+  coral-red beak, a distinctive black-and-rose-pink neck ring (a nod to the
+  rose-ringed parakeet, common across India and visually iconic), long
+  blue-teal tail feather accents for extra color pop, soft rosy blush on the
+  cheeks, large sparkling expressive eyes, small round reading glasses (purely
+  a personality/branding detail), a warm, kind expression. Rounded, plump,
+  big-headed proportions — cute and toyetic rather than anatomically literal.
 - **Role:** delivers the hook line at the start ("Do you know what happens when
   a crow gets too clever...") and the moral at the end. The middle of the video
   is the fable itself, told in-scene without the mascot present.
