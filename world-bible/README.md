@@ -50,17 +50,25 @@ Same classic fairy tale book illustration style, same warm earthy palette
 painterly rendering — the forest and the mascot need to look like they
 belong to the same show.
 
-## How to use the locked references
+## How to use the locked reference
 
-1. Generate `forest-location-sheet-prompt.md`'s prompt once — produces a
-   multi-panel sheet with each landmark clearly shown.
-2. Save the result here as `neelvan-location-sheet.png`.
-3. Whenever a fable's scene needs one of these landmarks, feed the location
-   sheet (or a cropped panel of it) in as an `image_references` input on
-   that shot's generation — same technique as the mascot reference, applied
-   to places instead of characters.
-4. Update this file's Status section once locked.
+Whenever a fable's scene needs one of these landmarks, feed the locked
+generation in as an `image_references` input on that shot's generation —
+same technique as the mascot reference, applied to places instead of
+characters. This can be done two ways:
+- **By Higgsfield job ID** (works today, no file needed): pass
+  `e397fad4-d452-47c8-a77d-ae5050fbf224` as the media value with role
+  `image_references` on any Higgsfield generation.
+- **By file** (once uploaded to the repo): `world-bible/neelvan-location-sheet.png`.
 
 ## Status
 
-⬜ Not yet generated.
+✅ **Locked.** Generation `e397fad4-d452-47c8-a77d-ae5050fbf224`
+(`seedream_v4_5`) — the four-panel sheet with the well + distant castle, the
+great banyan tree, the meadow with mountains, and the river with waterfalls,
+all with the warm lantern/firefly magical treatment. Reviewed and approved.
+See `forest-location-sheet-prompt.md` for the full generation record.
+
+⬜ Image file not yet in the repo — usable today via job ID reference above
+regardless; upload `neelvan-location-sheet.png` here when convenient for a
+visual record, not blocking.
