@@ -7,16 +7,23 @@ generation so the channel reads as one show, not disconnected clips.
 
 ## Art style (use in every image/video generation prompt)
 
-- **Style:** warm, flat-illustrated storybook style — soft shading, rounded
-  shapes, no photorealism. (Photorealistic AI humans/animals are the fastest way
-  to look like generic AI slop and to hit inconsistency problems face-to-face.)
+- **Style:** classic **fairy tale book illustration** — richly detailed,
+  painterly watercolor/gouache textures, delicate fine linework, warm whimsical
+  magical atmosphere with soft glowing light, timeless illustrated-storybook
+  charm, soft-edged rendering with gentle atmospheric depth. No photorealism,
+  no flat vector/cel-shading, no 3D render. (Photorealistic AI humans/animals
+  are the fastest way to look like generic AI slop and to hit inconsistency
+  problems face-to-face.)
 - **Palette:** warm earthy tones (terracotta, marigold yellow, leaf green, deep
   indigo night skies) — evokes Indian folk-art without copying a specific
-  copyrighted illustration style.
-- **Line/shape language:** simple, slightly rounded, expressive — should read
-  clearly at small Shorts thumbnail size and at a glance while scrolling.
+  copyrighted illustration style. Add soft magical highlights/glow sparingly
+  (candlelight, moonlight, dawn light) to reinforce the fairy tale feel.
+- **Line/shape language:** delicate, detailed, expressive — painterly rather
+  than flat/graphic, but should still read clearly at small Shorts thumbnail
+  size and at a glance while scrolling.
 - **Backgrounds:** minimal but specific (a riverbank, a palace courtyard, a
-  forest clearing) — one clear location per shot, no clutter.
+  forest clearing) — one clear location per shot, softly painted with
+  atmospheric depth, no clutter.
 
 Keep a fixed prompt fragment (the lines above, condensed) and append it to
 every single generation prompt, fable after fable, so the model's output stays
@@ -31,7 +38,7 @@ every fable opens and/or closes on the same narrator character.
   genuinely common storytelling narrator device in Indian folk tradition —
   not tied to any specific existing fable's cast, so it stays neutral and
   available across all stories) perched on a branch or windowsill, in the same
-  flat-illustrated style.
+  fairy-tale illustration style.
 - **Design:** deep brown/black feathers, a bright yellow-orange beak and eye
   patch, small reading glasses (this detail exists purely for
   personality/branding, not literal accuracy), a warm expression.
