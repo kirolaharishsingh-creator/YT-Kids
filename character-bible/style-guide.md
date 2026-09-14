@@ -76,6 +76,14 @@ image in `character-bible/` once generated.
   this matters as much as visual consistency for brand recognition.
 - Pace: fast but clear — a 15–20 second video has no room for dead air.
 - Structure: **Hook (2-3s) → Story (10-14s) → Moral (2-3s)**.
+- **Single-narrator format, confirmed standing rule.** The mascot/storyteller
+  voice reads the entire narration for every fable, including other
+  characters' lines as quoted speech within the narration. No character
+  besides the mascot gets a distinct voice or lip-sync. Only the mascot's
+  own on-screen shots are lip-synced (Wan 2.7); every other character acts
+  physically on screen but is never shown "talking." Keeps production fast
+  and matches how most short-form fable content handles narration — don't
+  revisit this per-fable, it applies channel-wide.
 
 ## On-screen text
 

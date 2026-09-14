@@ -58,10 +58,19 @@ settling on the water's surface. Silence.
 ## Production notes
 
 - Every in-scene visual prompt must append the fixed style fragment from
-  `character-bible/style-guide.md` (flat storybook illustration, warm earthy
-  palette, simple shapes).
-- Mascot must use the saved character reference once generated — do not
+  `character-bible/style-guide.md` (classic fairy tale book illustration,
+  painterly watercolor/gouache, warm jewel-toned palette, no photorealism).
+- Mascot must use the locked-in peacock reference
+  (`character-bible/mascot-peacock-final.png`) once fed in — do not
   re-describe from text on each beat.
 - The lion's fall is implied (splash/ripples + silence), not shown directly —
   keep it non-violent and clearly family-friendly on screen.
-- Same narrator voice across all 5 beats.
+- **Voice: single-narrator, confirmed.** The mascot/storyteller voice reads
+  the entire narration, including the lion's and rabbit's lines as quoted
+  speech within the narration — neither animal gets its own distinct voice
+  or lip-sync. Only the mascot shots (1 & 7) are lip-synced (Wan 2.7); the
+  lion and rabbit act physically on screen but aren't shown "talking."
+  Decided as the standing format for the whole channel, not just this fable
+  — keeps production fast and matches how most short-form fable content
+  handles narration.
+- Same narrator voice across all 5 beats, reused across every future fable.

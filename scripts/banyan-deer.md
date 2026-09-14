@@ -69,4 +69,9 @@ confusion to awe.
 - The king's "raised blade" in Beat 4 should read as a frozen, non-graphic
   moment — no violence depicted, the tension is entirely in his expression
   and hesitation, not the weapon.
+- **Voice: single-narrator, confirmed channel-wide.** The mascot/storyteller
+  voice reads the entire narration, including the doe's, the Branch Deer's,
+  and the king's lines as quoted speech within the narration — none of them
+  get a distinct voice or lip-sync. Only the mascot shots (1 & 5 here) are
+  lip-synced (Wan 2.7).
 - Same narrator voice as fable #1, reused across every future fable.
