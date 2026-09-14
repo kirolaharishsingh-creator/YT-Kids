@@ -33,24 +33,15 @@ Character turnaround model sheet, four consistent full-body views in a row, all 
 
 ## Status
 
-✅ **`4ec59e46` is the currently locked reference** —
-`character-bible/mascot-peacock-final.png`, painterly fairy-tale illustration
-style, reviewed and confirmed (all four views uncropped, glasses consistent).
-This stays the active reference until/unless the candidate below is reviewed
-and approved as a replacement.
-
-⚠️ **Pending candidate — style change under consideration.** A newer
-generation (`8da7e0b2`, also `seedream_v4_5`, using the same identity
-reference) was run with a different prompt (below) that switches from
-painterly fairy-tale illustration to **cinematic 3D animated feature-film**
-rendering — a real style change, not just a fix. Not yet reviewed against an
-actual image output. **Do not treat this as locked until an image has been
-shared and approved** — send the generated image the same way as before
-(paste in chat) once ready.
+✅ **`4ec59e46` is the confirmed final mascot — user-approved, no further
+iteration.** `character-bible/mascot-peacock-final.png`, painterly
+fairy-tale illustration style. The cinematic-3D candidate below was never
+generated as an actual image and was superseded by this confirmation — kept
+in this doc only as a record of what was considered, not an open option.
 
 ---
 
-## Candidate prompt — cinematic 3D style (pending review)
+## Considered but not used — cinematic 3D style
 
 ```
 Create a premium cinematic 3D fairy-tale character turnaround from the attached reference. SAME peacock character in 4 evenly spaced full-body views: front, 3/4, side profile and back. Perfectly consistent face, eyes, beak, crown, spectacles, proportions, feathers, wings, legs and tail.
@@ -68,6 +59,5 @@ Wide horizontal composition, equal spacing, all four characters completely visib
 CRITICAL: EXACT SAME CHARACTER in every view. No redesign, no different face, no changed accessories, no altered colors or proportions, no extra limbs, eyes or beaks, no distortion, no text, labels or watermark.
 ```
 
-**This is now the reference image to pass via `image_references` on every
-future mascot shot, in every fable — until/unless the candidate above
-replaces it.**
+**`mascot-peacock-final.png` is the reference image to pass via
+`image_references` on every future mascot shot, in every fable.**
