@@ -20,7 +20,7 @@ the full art-style rationale
 | **Model** | `nano_banana_2` (not Nano Banana Pro as originally planned — Pro wasn't available on unlim, this generation used Nano Banana 2 instead and matches the locked prompt exactly) |
 | **Generated** | Sept 14, 2026 |
 | **Source** | https://higgsfield.ai/s/76eS7Eb7rCM |
-| **File in repo** | ⬜ Not yet uploaded — see Status below |
+| **File in repo** | ✅ `character-bible/mascot-peacock-final.png` |
 
 ---
 
@@ -36,9 +36,12 @@ Character turnaround model sheet, four consistent full-body views in a row — f
 (`29dd7666`), and the design description in `style-guide.md` are all final —
 no further iteration on the mascot's look, only production from here.
 
-⬜ **File upload still pending.** The image itself needs to be added to this
-folder as `mascot-peacock-final.png` (upload via GitHub — Claude can't fetch
-it directly, blocked by network policy) before it can be used as an
-`image_references` input on future generations. Until then, fable shot lists
-reference this doc as the source of truth for the mascot's design, but
-actual mascot shots can't be generated with image-reference conditioning yet.
+✅ **Image file in repo.** `character-bible/mascot-peacock-final.png` —
+uploaded and confirmed. Reviewed: matches the brief (cute, jewel-toned,
+sharp/high-quality, gold tiara detail reinforcing the "queen" presence).
+Minor note: two of the four turnaround views are slightly cropped at the
+image edges (framing quirk, not a design issue) — the two fully-visible
+views are clean and consistent, so this is fine to use as-is.
+
+**This is now the reference image to pass via `image_references` on every
+future mascot shot, in every fable.**

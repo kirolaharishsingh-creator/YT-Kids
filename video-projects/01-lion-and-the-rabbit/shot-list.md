@@ -11,7 +11,7 @@ Each row = one AI generation. All prompts append the fixed style fragment from
 | 4 | Trick (b) | Lion and rabbit approaching edge of stone well | New generation |
 | 5 | Payoff (a) | Close-up: lion's reflection glaring up from well water | New generation |
 | 6 | Payoff (b) | Lion leaping into well / ripples settling, no lion visible | New generation |
-| 7 | Moral | Peacock mascot again, same reference as shot 1 | Reuse mascot reference |
+| 7 | Moral | Peacock mascot again, same reference as shot 1 | Reuse mascot-peacock-final.png as image_references |
 
 **Voiceover:** one continuous narration track per `scripts/lion-and-the-rabbit.md`,
 same voice/TTS setting to be reused for every future fable.

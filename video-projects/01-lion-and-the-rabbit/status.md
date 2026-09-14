@@ -7,7 +7,7 @@
 | Script | ✅ Draft complete |
 | Shot list | ✅ Done |
 | Mascot design locked | ✅ Done (see `character-bible/mascot-prompt.md`) |
-| Mascot reference file uploaded | ⬜ Pending |
+| Mascot reference file uploaded | ✅ Done (`character-bible/mascot-peacock-final.png`) |
 | Visuals generated | ⬜ Not started |
 | Voiceover recorded | ⬜ Not started |
 | Edited | ⬜ Not started |
