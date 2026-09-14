@@ -55,9 +55,7 @@ every fable opens and/or closes on the same narrator character.
   expressive face, graceful proportions with a slightly bigger-headed
   endearing charm without losing the majestic quality, large sparkling
   expressive eyes, soft warm expression, small delicate gold-rimmed reading
-  glasses. **Lighting/finish:** refined, polished, aesthetic, high-quality
-  luminous light — not soft-hazy and not harshly dramatic; the goal is
-  "elegant and beautiful," not moody and not overly soft/blurred.
+  glasses, warm whimsical magical atmosphere with soft glowing light.
 - **Role:** delivers the hook line at the start ("Do you know what happens when
   a crow gets too clever...") and the moral at the end. The middle of the video
   is the fable itself, told in-scene without the mascot present.
