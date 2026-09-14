@@ -8,7 +8,7 @@ translation (see `research/lion-and-the-rabbit/notes.md`)
 
 ## Beat 1 — Hook (0:00–0:03) — Mascot
 
-**Visual:** The parrot narrator mascot, perched on a branch, addresses camera.
+**Visual:** The peacock narrator mascot, perched on a branch, addresses camera.
 **On-screen text:** "The Lion & the Rabbit 🐰🦁"
 **Narration (VO):**
 > "What happens when the forest's biggest bully... picks on the wrong rabbit?"
@@ -48,7 +48,7 @@ settling on the water's surface. Silence.
 
 ## Beat 5 — Moral (0:16–0:18) — Mascot
 
-**Visual:** Back to the parrot mascot, warm expression.
+**Visual:** Back to the peacock mascot, warm expression.
 **On-screen text:** "Moral: Wit beats strength."
 **Narration (VO):**
 > "Moral of the story? Cleverness beats a bully every time."

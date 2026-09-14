@@ -7,7 +7,7 @@ cast (2 characters + 1 prop location) to keep the first AI-generation pass
 simple to validate.
 
 **Angle:** Classic wit-beats-strength Panchatantra tale, told in 18 seconds
-through the recurring parrot narrator.
+through the recurring peacock narrator.
 
 **Links:**
 - Research: `research/lion-and-the-rabbit/notes.md`

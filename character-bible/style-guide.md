@@ -34,22 +34,27 @@ visually consistent even though the animal/human cast changes each time.
 To give the channel a recognizable face despite the cast changing every video,
 every fable opens and/or closes on the same narrator character.
 
-- **Character:** a cheerful **parrot** (switched from an earlier myna design —
-  the myna's naturally dark/black plumage read as moody rather than kid-friendly
-  even with added color; a parrot solves this at the species level since bright
-  green/red coloring is natural to it, not something to fight for). Parrots are
-  just as legitimate a classic Indian storytelling-narrator bird as the myna —
-  see the "Tales of a Parrot" (Shuka Saptati) tradition — so this keeps the
-  same cultural grounding while being inherently more colorful and catchy.
-  Perched on a branch or windowsill, in the same fairy-tale illustration style.
-- **Design:** bright, cheerful, high-contrast coloring built to read instantly
-  at small Shorts thumbnail size — vivid grass-green plumage, a bold curved
-  coral-red beak, a distinctive black-and-rose-pink neck ring (a nod to the
-  rose-ringed parakeet, common across India and visually iconic), long
-  blue-teal tail feather accents for extra color pop, soft rosy blush on the
-  cheeks, large sparkling expressive eyes, small round reading glasses (purely
-  a personality/branding detail), a warm, kind expression. Rounded, plump,
-  big-headed proportions — cute and toyetic rather than anatomically literal.
+- **Character:** a majestic **peacock** (switched from parrot, then myna — the
+  brief was "feathery, beautiful, a colour-goddess type icon people stop
+  scrolling for," and the peacock is the natural answer: it's India's national
+  bird, defined by extravagant, jewel-toned plumage, and reads as grand and
+  eye-catching on sight, not just "colorful"). **Important boundary, carried
+  over from the channel's earlier direction:** this is styled as a majestic
+  *animal* character — regal, ornate, "goddess-like" in visual grandeur only —
+  never a literal deity or religious figure. Keeps the channel clear of the
+  religious-depiction risk already ruled out earlier. Perched gracefully on a
+  branch or palace balustrade, in the same fairy-tale illustration style.
+- **Design:** richly feathered and jewel-toned, built to be the single most
+  eye-catching thing on screen — iridescent sapphire-blue neck and breast,
+  emerald-green back, teal and gold highlights, an iconic fan-shaped crest of
+  feathers atop the head, an elegant long tail with the classic peacock
+  "eye"-spot feather pattern, worn gracefully trailing/folded in standard
+  poses (not fully fanned open, so the character stays compact and readable
+  at small thumbnail size — a full fanned display is a possible special
+  "hero" pose for later, not the default). Delicate, elegant features, large
+  sparkling expressive eyes, soft warm expression, small delicate gold-rimmed
+  reading glasses (keeps the wise-narrator personality thread from earlier
+  designs — easy to drop if it reads as undercutting the elegance).
 - **Role:** delivers the hook line at the start ("Do you know what happens when
   a crow gets too clever...") and the moral at the end. The middle of the video
   is the fable itself, told in-scene without the mascot present.
