@@ -181,15 +181,15 @@ narration segment.
 **Duration per shot, matched to the 33.7s voiceover (word-count-weighted,
 ~34s total, trim ~0.3s in the edit):**
 
-| Shot | Beat | Narration segment | Clip length | Motion prompt |
-|---|---|---|---|---|
-| 1 | Hook | "What happens when the forest's biggest bully picks on the wrong rabbit?" | 5s | Gentle idle sway, feathers softly shifting, blinking, addressing camera with warm expression |
-| 2 | Setup | "Every animal had to send the lion food, or he'd hunt them all himself. Today, it was the rabbit's turn." | 6s | Animals shifting nervously, lion's mane rippling slightly, subtle ambient forest motion (leaves, light) |
-| 3 | Trick (a) | "Forgive me, said the rabbit. Another lion in this forest tried to stop me, and said he rules here now." | 6s | Rabbit walking forward calmly, lion's chest heaving with anger, tail flicking |
-| 4 | Trick (b) | "The lion roared. Show me." | 4s | Rabbit gesturing toward the well, lion leaning forward to look, cautious movement |
-| 5 | Payoff (a) | "The lion saw his rival..." | 4s | Water rippling gently, reflection wavering, lion's reflected face reacting with sudden fury |
-| 6 | Payoff (b) | "...and leapt in to fight him." | 4s | Water rippling outward from a splash, then slowly settling to stillness |
-| 7 | Moral | "Moral of the story? Cleverness beats a bully every time." | 5s | Gentle idle sway, warm reassuring expression, subtle feather shimmer |
+| Shot | Beat | Narration segment | Clip length | Motion prompt | Status |
+|---|---|---|---|---|---|
+| 1 | Hook | "What happens when the forest's biggest bully picks on the wrong rabbit?" | 5s | Gentle idle sway, feathers softly shifting, blinking, addressing camera with warm expression | ⚠️ Blocked — Wan 2.7 failing, see `lip-sync-audio.md` |
+| 2 | Setup | "Every animal had to send the lion food, or he'd hunt them all himself. Today, it was the rabbit's turn." | 6s | Animals shifting nervously, lion's mane rippling slightly, subtle ambient forest motion (leaves, light) | ✅ Locked — `9c1ca421-1493-4c03-9858-ccfdf7900328`, 9 credits |
+| 3 | Trick (a) | "Forgive me, said the rabbit. Another lion in this forest tried to stop me, and said he rules here now." | 6s | Rabbit walking forward calmly, lion's chest heaving with anger, tail flicking | ✅ Locked — `cf8c319d-16d7-465b-b464-c16435ad89f5`, 9 credits |
+| 4 | Trick (b) | "The lion roared. Show me." | 4s | Rabbit gesturing toward the well, lion leaning forward to look, cautious movement | ✅ Locked — `26cff6df-ac7f-4a9f-8451-c127a2e74efc`, 6 credits |
+| 5 | Payoff (a) | "The lion saw his rival..." | 4s | Water rippling gently, reflection wavering, lion's reflected face reacting with sudden fury | ✅ Locked — `b506c4b9-305e-4cfb-b4ea-281688786d0c`, 6 credits |
+| 6 | Payoff (b) | "...and leapt in to fight him." | 4s | Water rippling outward from a splash, then slowly settling to stillness | ✅ Locked — `cff6aa5f-f39a-4573-a692-54746f204e0a`, 6 credits (aftermath-only by design — the jump itself is carried by narration, not shown on screen; confirmed intentional) |
+| 7 | Moral | "Moral of the story? Cleverness beats a bully every time." | 5s | Gentle idle sway, warm reassuring expression, subtle feather shimmer | ⚠️ Blocked — Wan 2.7 failing, see `lip-sync-audio.md` |
 
 **Cost, updated for variable durations:** ~1.5 credits/sec (sound off) ×
 ~34s total ≈ **~51 credits** for the fully animated pilot (up from the
