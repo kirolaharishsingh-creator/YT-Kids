@@ -93,10 +93,22 @@ as `image_references` (as already planned below).
 
 ### Shot 5 — Payoff (a)
 
+✅ **Locked — generation `1b80cde9-265d-40ad-b760-0c0d27034559`** (`seedream_v4_5`,
+9:16, high quality, 1 credit). First attempt approved. Final locked prompt
+below.
+
 ```
-Close-up shot looking down into an old stone well, the reflection of the same golden-maned lion glaring angrily back up from the water's surface, ripples just settling around the reflection, warm dappled light catching the water, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, warm earthy colour palette — terracotta, marigold yellow, deep indigo shadows, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos
+A single continuous close-up shot looking down into an old moss-covered stone well, one unified image, no split screen, no panel divide, no vertical or horizontal dividing line, the dark water's surface deep inside the well reflecting the face of the same golden-maned lion glaring angrily back up, furious narrowed eyes, bared teeth visible in the reflection, gentle ripples just settling around the reflected face, warm dappled light catching the water's surface and the wet stone walls of the well, moss and a few trailing vines along the stone rim visible at the edges of frame, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, warm earthy colour palette — terracotta, marigold yellow, deep indigo shadows, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos, use reference images only for the lion's exact facial design and art style, never for composition or layout
 ```
-*(feed Shot 2's output as `image_references` for the lion's exact appearance)*
+
+**Note:** feeding Shot 2's/Shot 4's raw job ID (rather than a locked
+Element) as a reference caused a `400 Bad Request` on actual submission
+here, even though `get_cost` preflight accepted it — stick to the two
+locked Elements (`Lion-Rabbit-Fable1`, `Neelvan-Forest`) for reference
+inputs going forward, not prior shots' raw generation IDs.
+
+**Reference for Shot 6:** no characters in that shot (empty well after the
+splash) — just use `Neelvan-Forest` for the well/location design.
 
 ### Shot 6 — Payoff (b)
 
