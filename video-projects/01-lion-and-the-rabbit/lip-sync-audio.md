@@ -27,3 +27,16 @@ inside the full narration. Approved on listen-through despite this.
 **Next:** feed each clip into `generate_video` (model `wan2_7`) as
 `audio_references`, with that shot's locked still image as `start_image`,
 to produce the lip-synced Shot 1 and Shot 7 clips.
+
+## Blocker (2026-09-15): Wan 2.7 generation failing
+
+4 consecutive attempts to generate Shot 1's lip-sync video (varying
+`resolution` and `duration` params) all failed with no error message —
+each failed job was internally mislabeled `type: "image"` instead of
+`"video"`, suggesting a backend routing bug on Higgsfield's side specific
+to the `wan2_7` + `audio_references` combination, not a problem with our
+request. All 4 attempts were auto-refunded (net 0 credits spent — verified
+via `transactions`). Deferred — retry later, or try the
+`Peacock-Mascot` reference Element as `start_image` instead of the raw
+Shot 1 job ID if it recurs. Proceeding with the non-mascot Kling animation
+(Shots 2-6) in the meantime.
