@@ -74,10 +74,22 @@ as `image_references` (as already planned below).
 
 ### Shot 4 — Trick (b)
 
+✅ **Locked — generation `f4c9b13b-5554-4208-ad2c-2eaba49c65a7`** (`seedream_v4_5`,
+9:16, high quality, 1 credit). First attempt approved — the anti-split-screen/
+anti-landmark-bleed language carried forward from Shots 2-3 worked
+immediately here. Final locked prompt below.
+
 ```
-The same lion and rabbit approaching the edge of an old moss-covered stone well in the forest, the rabbit gesturing toward the well, the lion peering forward with suspicion, late-afternoon warm light, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, one clear location, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos
+A single full immersive forest scene, NOT a reference sheet, NOT two separate character portraits, ignore any grid or side-by-side layout from reference images entirely — use references only for character design, fur colour, and art style, never for composition or framing, one continuous unbroken environment, one camera, one consistent depth of field, absolutely no vertical line, no seam, no border, no split screen, no diptych, no panel divide anywhere in the image, both characters exist together naturally in the same integrated space, not mirrored, not facing each other across a centerline divide — the same small brown rabbit and the same golden-maned lion approaching the edge of an old moss-covered stone well together, standing at slightly different depths and angles rather than mirrored, the rabbit in front gesturing with one paw toward the well opening, calm and confident expression, the lion just behind and to the side, leaning forward and peering down toward the well with deep suspicion, narrowed eyes, wary posture, clearly larger and more powerful than the rabbit, the old stone well moss-covered with a small wooden bucket on a rope, late-afternoon warm golden light, forest clearing setting with tall trees, no waterfall, no great banyan tree, no additional landmarks, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, one clear location, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos
 ```
-*(feed Shot 2's output as `image_references`)*
+
+**Known minor deviation, accepted:** the lion looks at the rabbit rather
+than down into the well as the prompt requested — not a problem, since the
+"peering into the well" beat belongs to Shot 5's reflection close-up
+anyway.
+
+**Reference for Shots 5-6:** feed generation `f4c9b13b-5554-4208-ad2c-2eaba49c65a7`
+as `image_references` (as already planned below).
 
 ### Shot 5 — Payoff (a)
 
