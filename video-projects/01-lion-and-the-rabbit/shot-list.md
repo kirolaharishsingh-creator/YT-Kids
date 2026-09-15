@@ -24,21 +24,16 @@ fable's remaining shots.
 
 ## Generation prompts (shots 2–6)
 
-**Consistency approach (updated):** generate the dedicated clean lion+rabbit
-reference first — see `character-reference-prompt.md` in this folder — using
-BOTH the locked mascot (job `4ec59e46`) and jungle (job `e397fad4`) as
-`image_references` together, so it's anchored to the established rendering
-style, palette, and atmosphere rather than drifting on its own. Review that
-result against the mascot and jungle before proceeding.
-
-Once approved, feed that clean reference image into Shots 2–6 as
+**Consistency approach — lion+rabbit reference locked.** ✅ See
+`character-reference-prompt.md` in this folder — generation `663aa18d`,
+approved. Feed the **`Lion-Rabbit-Fable1`** Element into Shots 2–6 as
 `image_references` (alongside the jungle reference for location — see
 below) so the same lion and rabbit stay consistent across the whole fable.
 
 **Location consistency:** Shots 2–4 use the Forest Clearing panel and Shots
-4–6 use the Ancient Well panel from the locked jungle sheet (job `e397fad4`).
-Feed the relevant panel in as an additional `image_references` input on
-these shots alongside the lion/rabbit reference, so this fable's forest
+4–6 use the Ancient Well panel from the locked jungle sheet. Feed the
+**`Neelvan-Forest`** Element in as an additional `image_references` input
+on these shots alongside the lion/rabbit reference, so this fable's forest
 matches every other fable's forest.
 
 ### Shot 2 — Setup

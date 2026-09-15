@@ -62,8 +62,22 @@ Two-character reference sheet, side by side on a solid plain white or neutral st
 
 ## Status
 
-⚠️ **Attempt 1 rejected** — came back as a 3D render instead of painterly
-illustration; background bleed was successfully avoided though. Attempt 2
-above strengthens painterly-specific positive language. Regenerate with
-Attempt 2 and review against the locked mascot and jungle before using as
-the `image_references` input for Shots 2–6 in `shot-list.md`.
+✅ **Locked — Attempt 2 approved.** Generation `663aa18d-3d8f-4c4a-b766-1d01e78ee9fc`
+(`seedream_v4_5`), correctly used the `Peacock-Mascot` and `Neelvan-Forest`
+Elements (verified in job metadata — no reference mix-up this time). Result:
+genuine painterly watercolor style (visible brush strokes, matte finish, no
+3D/glossy look), clean white background (no jungle scenery bleed), palette
+matches the locked mascot/jungle. Approved for use despite one known
+limitation — see below.
+
+**Known limitation:** the lion is shown as a cropped head/shoulders portrait,
+not full-body as the prompt requested — likely acceptable since this
+reference is for style/color consistency, not literal pose/proportion
+copying, but worth knowing if Shots 2–6 show inconsistent lion proportions.
+
+**Reference Element:** **`Lion-Rabbit-Fable1`** (id
+`ed497917-a9a2-47d5-a62b-de4228f14f2c`, category: character) — use this by
+name for Shots 2–6, same as the mascot/jungle Elements.
+
+⚠️ Image file not yet in the repo — usable today via the Element/job ID
+above regardless; not blocking.
