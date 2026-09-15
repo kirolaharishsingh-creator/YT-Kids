@@ -160,28 +160,39 @@ structure and demanding daytime warm lighting rather than relying on
 Each of the 7 shots (including both mascot shots) gets animated from its
 still image into a short video clip, then stitched together in editing.
 
+**Superseded plan (kept for record):** originally assumed a uniform 3s per
+clip (Kling's minimum), 21s raw footage trimmed to an 18-20s final cut,
+~31.5 credits total. **This assumed the voiceover would land in the
+channel's standard 15-20s target — it came in at 33.7s instead** (locked
+generation `3de96755-0356-4636-999c-dc82497a5fa1`, Isla voice). Rather than
+re-cut the script, the plan below stretches each clip to match its actual
+narration segment.
+
 **Settings:**
 - Model: `kling3_0` (standard quality)
-- Duration: 3 seconds per clip (Kling's minimum — trim to each beat's exact
-  timing in the edit; total raw footage 21s trimmed down to the 18s final cut)
+- Duration: **variable per shot**, matched to that shot's narration segment
+  (see table below) — not a uniform 3s anymore
 - Sound: **off** — narration is added separately as one continuous voiceover
-  track per `scripts/lion-and-the-rabbit.md`, so Kling's built-in audio isn't
-  needed and costs more for nothing
+  track (job `3de96755`), so Kling's built-in audio isn't needed and costs
+  more for nothing
 - Input: each shot's still image as `start_image`
 - Aspect ratio: 9:16
 
-**Confirmed cost (preflight-checked, no credits spent):** 4.5 credits per
-3-second clip × 7 shots = **~31.5 credits total** for the fully animated pilot.
+**Duration per shot, matched to the 33.7s voiceover (word-count-weighted,
+~34s total, trim ~0.3s in the edit):**
 
-**Animation prompts** — keep these simple; the still image already carries
-the design, the animation prompt just needs to describe the *motion*:
+| Shot | Beat | Narration segment | Clip length | Motion prompt |
+|---|---|---|---|---|
+| 1 | Hook | "What happens when the forest's biggest bully picks on the wrong rabbit?" | 5s | Gentle idle sway, feathers softly shifting, blinking, addressing camera with warm expression |
+| 2 | Setup | "Every animal had to send the lion food, or he'd hunt them all himself. Today, it was the rabbit's turn." | 6s | Animals shifting nervously, lion's mane rippling slightly, subtle ambient forest motion (leaves, light) |
+| 3 | Trick (a) | "Forgive me, said the rabbit. Another lion in this forest tried to stop me, and said he rules here now." | 6s | Rabbit walking forward calmly, lion's chest heaving with anger, tail flicking |
+| 4 | Trick (b) | "The lion roared. Show me." | 4s | Rabbit gesturing toward the well, lion leaning forward to look, cautious movement |
+| 5 | Payoff (a) | "The lion saw his rival..." | 4s | Water rippling gently, reflection wavering, lion's reflected face reacting with sudden fury |
+| 6 | Payoff (b) | "...and leapt in to fight him." | 4s | Water rippling outward from a splash, then slowly settling to stillness |
+| 7 | Moral | "Moral of the story? Cleverness beats a bully every time." | 5s | Gentle idle sway, warm reassuring expression, subtle feather shimmer |
 
-| Shot | Motion prompt |
-|---|---|
-| 1 (mascot hook) | Gentle idle sway, feathers softly shifting, blinking, addressing camera with warm expression |
-| 2 (setup) | Animals shifting nervously, lion's mane rippling slightly, subtle ambient forest motion (leaves, light) |
-| 3 (trick a) | Rabbit walking forward calmly, lion's chest heaving with anger, tail flicking |
-| 4 (trick b) | Rabbit gesturing toward the well, lion leaning forward to look, cautious movement |
-| 5 (payoff a) | Water rippling gently, reflection wavering, lion's reflected face reacting with sudden fury |
-| 6 (payoff b) | Water rippling outward from a splash, then slowly settling to stillness |
-| 7 (mascot moral) | Gentle idle sway, warm reassuring expression, subtle feather shimmer |
+**Cost, updated for variable durations:** ~1.5 credits/sec (sound off) ×
+~34s total ≈ **~51 credits** for the fully animated pilot (up from the
+original ~31.5 credit estimate, because the video is now ~34s instead of
+~18-20s). Confirm exact per-clip cost via `get_cost` before submitting each
+one, same as the still-image workflow.
