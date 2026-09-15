@@ -61,10 +61,16 @@ match this locked shot exactly.
 
 ### Shot 3 — Trick (a)
 
+✅ **Locked — generation `0c06c1ae-3213-4695-a4a7-25e67647ddd0`** (`seedream_v4_5`,
+9:16, high quality, 1 credit). Took 3 attempts — see
+`shot-3-iteration-log.md` in this folder. Final locked prompt below.
+
 ```
-The same small brown rabbit from before, walking calmly and unhurried toward the same golden-maned lion, who looks furious and impatient, forest clearing background, tense but composed mood, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, one clear location, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos
+A single full immersive forest scene, NOT a reference sheet, NOT two separate character portraits, ignore any grid or side-by-side layout from reference images entirely — use references only for character design, fur colour, and art style, never for composition or framing, one continuous unbroken environment, one camera, one consistent depth of field, absolutely no vertical line, no seam, no border, no split screen, no diptych, no panel divide anywhere in the image, both characters exist together naturally in the same integrated space, not mirrored, not facing each other across a centerline divide — instead, the small brown rabbit walking calmly at a natural angle across the clearing, three-quarter view, the golden-maned lion prowling toward it from a different angle and distance, overlapping naturally in perspective the way two animals sharing a real physical space would, rabbit relaxed and unbothered, ears up, composed expression, lion looming large, furious and impatient, glaring, bared teeth, tense hunched shoulders, clearly larger and more powerful than the rabbit, plain forest clearing with tall trees and dappled warm sunlight, no ancient well, no waterfall, no river, no great banyan tree, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, one clear location, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos
 ```
-*(feed Shot 2's output as `image_references` for lion/rabbit consistency)*
+
+**Reference for Shot 4:** feed generation `0c06c1ae-3213-4695-a4a7-25e67647ddd0`
+as `image_references` (as already planned below).
 
 ### Shot 4 — Trick (b)
 
