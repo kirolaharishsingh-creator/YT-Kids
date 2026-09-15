@@ -1,16 +1,20 @@
-# YT Kids — Indian Folk Fable Videos
+# YT Kids — Indian Folk Fable Shorts
 
-This repository is the production workspace for a YouTube channel telling
+This repository is the production workspace for a YouTube Shorts channel telling
 classic Indian folk and moral fables (Panchatantra / Akbar-Birbal / Tenali Raman
-style) as 15–20 second AI-generated videos in **16:9 landscape** format.
+style) as 15–20 second AI-generated videos in **vertical 9:16** format.
 
-**Format note:** this channel posts as regular landscape uploads, not the
-vertical/square YouTube Shorts shelf — 16:9 videos generally don't qualify
-for Shorts placement even at this short a duration. See
-`docs/monetization-and-growth.md` for what that means for discovery and
-monetization (a materially different, harder path than Shorts would have
-been, since tiny landscape uploads accumulate almost no watch-hours toward
-standard monetization thresholds).
+**Format note — dual strategy:** individual fables are produced and posted
+vertically as true Shorts (≤3 min + vertical qualifies for the Shorts shelf,
+which is the better discovery path for short content). Periodically, groups
+of fables also get compiled into single longer uploads (still vertically
+framed, just >3 minutes total) — since YouTube's Shorts classification is
+duration-based, a compilation over 3 minutes is a regular long-form upload
+regardless of aspect ratio, which is what actually accumulates watch-hours
+toward monetization. See `docs/monetization-and-growth.md` for the full
+reasoning — this combines Shorts-shelf discovery per episode with a real
+path to the watch-hour threshold via compilations, rather than choosing
+one or the other.
 
 **Why this niche (see `docs/monetization-and-growth.md` for the full reasoning):**
 - No religious-figure depiction risk — these are folk/moral tales (clever animals,
