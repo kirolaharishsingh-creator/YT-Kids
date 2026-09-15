@@ -10,7 +10,7 @@
 | Mascot reference file uploaded | ✅ Done (`character-bible/mascot-peacock-final.png`) |
 | Lion+rabbit reference locked | ✅ Done (Element `Lion-Rabbit-Fable1`) |
 | Narrator voice locked | ✅ Done (Isla, see `character-bible/style-guide.md`) |
-| Visuals generated | 🟡 In progress — Shots 2 (`ac8e275e`), 3 (`0c06c1ae`), 4 (`f4c9b13b`), 5 (`1b80cde9`) locked, Shot 6 remaining |
+| Visuals generated | 🟡 In progress — Shots 2-6 all locked (`ac8e275e`, `0c06c1ae`, `f4c9b13b`, `1b80cde9`, `f3db5b2e`), Shots 1 & 7 (mascot) remaining |
 | Voiceover recorded | ⚠️ Generated (job `3de96755`), pending user listen-through for approval |
 | Edited | ⬜ Not started |
 | Thumbnail | ⬜ Not started |

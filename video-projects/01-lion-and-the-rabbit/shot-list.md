@@ -112,9 +112,16 @@ splash) — just use `Neelvan-Forest` for the well/location design.
 
 ### Shot 6 — Payoff (b)
 
+✅ **Locked — generation `f3db5b2e-2363-4539-9ed6-517bac10bb4b`** (`seedream_v4_5`,
+9:16, high quality, 1 credit). First attempt approved. Final locked prompt
+below.
+
 ```
-An old moss-covered stone well in a quiet forest clearing, water rippling and settling after a splash, no characters visible, empty and still, warm fading afternoon light, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, one clear location, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos
+A single continuous unbroken scene, one camera, one consistent depth of field, no split screen, no panel divide, no dividing lines, a wide view of an old moss-covered stone well standing alone in a quiet forest clearing, tall trees surrounding the clearing, water inside the well rippling outward in circles and just beginning to settle after a splash, no characters visible anywhere in the frame, empty and still, warm fading afternoon light, long soft shadows, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, timeless illustrated-storybook charm, soft-edged rendering with gentle atmospheric depth, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, one clear location, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos
 ```
+
+**All 6 story shots (2-6) are now locked.** Remaining: Shots 1 and 7
+(mascot hook/moral, reusing `mascot-peacock-final.png`/`Peacock-Mascot`).
 
 **Aspect ratio for all shots:** 9:16 (vertical, matches the final Shorts format).
 
