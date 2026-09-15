@@ -77,6 +77,13 @@ image in `character-bible/` once generated.
 
 ## Narration voice
 
+✅ **Locked: "Isla"** — Higgsfield preset voice, `voice_id`
+`7367e919-3069-5a0b-939e-dfb1c0fd91b4`, `voice_type: preset`, model
+`seed_audio`. Chosen for a kid-friendly, childish, fairy-tale storyteller
+quality. **Use this exact voice for every fable, every video, no exceptions**
+— this is the channel's permanent narrator voice, same tier of decision as
+the mascot's visual design.
+
 - Same narrator voice (same TTS voice or same voice actor) every single video —
   this matters as much as visual consistency for brand recognition.
 - Pace: fast but clear — a 15–20 second video has no room for dead air.
