@@ -19,8 +19,8 @@ generation so the channel reads as one show, not disconnected clips.
   copyrighted illustration style. Add soft magical highlights/glow sparingly
   (candlelight, moonlight, dawn light) to reinforce the fairy tale feel.
 - **Line/shape language:** delicate, detailed, expressive — painterly rather
-  than flat/graphic, but should still read clearly at small Shorts thumbnail
-  size and at a glance while scrolling.
+  than flat/graphic, but should still read clearly at small thumbnail size
+  and at a glance while scrolling.
 - **Backgrounds:** minimal but specific (a riverbank, a palace courtyard, a
   forest clearing) — one clear location per shot, softly painted with
   atmospheric depth, no clutter. **The forest itself is a locked, recurring

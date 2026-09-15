@@ -1,6 +1,6 @@
 # Script: The Banyan Deer's Offer
 
-**Format:** 18 seconds · vertical 9:16 · Jataka Tales fable series
+**Format:** 18 seconds · 16:9 landscape · Jataka Tales fable series
 **Status:** draft — pending fact-check against a primary Jataka translation
 (see `research/banyan-deer/notes.md`)
 

@@ -1,6 +1,6 @@
 # Script: The Lion and the Rabbit
 
-**Format:** 18 seconds · vertical 9:16 · Panchatantra fable series
+**Format:** 18 seconds · 16:9 landscape · Panchatantra fable series
 **Status:** draft — pending fact-check against a primary Panchatantra
 translation (see `research/lion-and-the-rabbit/notes.md`)
 
