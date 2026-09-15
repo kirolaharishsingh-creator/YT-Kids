@@ -3,22 +3,23 @@
 Each row = one AI generation. All prompts append the fixed style fragment from
 `character-bible/style-guide.md`.
 
-| # | Beat | Shot | Asset needed |
+| # | Beat | Shot | Generation ID |
 |---|------|------|--------------|
-| 1 | Hook | Peacock mascot on branch, addressing camera, warm expression | Reuse mascot-peacock-final.png as image_references |
-| 2 | Setup | Wide: lion standing over bowing forest animals, rabbit at front | New generation |
-| 3 | Trick (a) | Rabbit walking calmly up to angry lion | New generation |
-| 4 | Trick (b) | Lion and rabbit approaching edge of stone well | New generation |
-| 5 | Payoff (a) | Close-up: lion's reflection glaring up from well water | New generation |
-| 6 | Payoff (b) | Lion leaping into well / ripples settling, no lion visible | New generation |
-| 7 | Moral | Peacock mascot again, same reference as shot 1 | Reuse mascot-peacock-final.png as image_references |
+| 1 | Hook | Peacock mascot on branch, addressing camera, warm expression | ✅ `e1dd7083-a14a-4475-ae56-45e8abc4f6ed` |
+| 2 | Setup | Wide: lion standing over bowing forest animals, rabbit at front | ✅ `ac8e275e-9005-4659-84f5-67688edfb0af` |
+| 3 | Trick (a) | Rabbit walking calmly up to angry lion | ✅ `0c06c1ae-3213-4695-a4a7-25e67647ddd0` |
+| 4 | Trick (b) | Lion and rabbit approaching edge of stone well | ✅ `f4c9b13b-5554-4208-ad2c-2eaba49c65a7` |
+| 5 | Payoff (a) | Close-up: lion's reflection glaring up from well water | ✅ `1b80cde9-265d-40ad-b760-0c0d27034559` |
+| 6 | Payoff (b) | Lion leaping into well / ripples settling, no lion visible | ✅ `f3db5b2e-2363-4539-9ed6-517bac10bb4b` |
+| 7 | Moral | Peacock mascot again, same crest/lighting as shot 1 | ✅ `50ec919a-d570-4566-a247-6c9357b1465c` |
 
 **Voiceover:** one continuous narration track per `scripts/lion-and-the-rabbit.md`,
 same voice/TTS setting to be reused for every future fable.
 
-**Status:** mascot locked and reference image in repo
-(`character-bible/mascot-peacock-final.png`) — ready to generate this
-fable's remaining shots.
+**Status: all 7 shots locked.** ✅ Every still image for fable #1 is
+generated and approved — see `shot-2-iteration-log.md` and
+`shot-3-iteration-log.md` for the debugging history on the two hardest
+shots. Next stage: animation pass (Kling), below.
 
 ---
 
@@ -120,8 +121,35 @@ below.
 A single continuous unbroken scene, one camera, one consistent depth of field, no split screen, no panel divide, no dividing lines, a wide view of an old moss-covered stone well standing alone in a quiet forest clearing, tall trees surrounding the clearing, water inside the well rippling outward in circles and just beginning to settle after a splash, no characters visible anywhere in the frame, empty and still, warm fading afternoon light, long soft shadows, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, timeless illustrated-storybook charm, soft-edged rendering with gentle atmospheric depth, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, one clear location, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos
 ```
 
-**All 6 story shots (2-6) are now locked.** Remaining: Shots 1 and 7
-(mascot hook/moral, reusing `mascot-peacock-final.png`/`Peacock-Mascot`).
+### Shot 1 — Hook
+
+✅ **Locked — generation `e1dd7083-a14a-4475-ae56-45e8abc4f6ed`** (`seedream_v4_5`,
+9:16, high quality, 1 credit). First attempt approved.
+
+```
+A single continuous unbroken forest scene, one camera, one consistent depth of field, no split screen, no panel divide, no dividing lines, the same majestic peacock mascot perched gracefully on a tree branch in the forest, tail feathers trailing elegantly downward not fully fanned, addressing the camera directly with a warm, inviting, engaging expression, as if about to tell a story, small gold-rimmed reading glasses, soft warm morning sunlight filtering through leaves, forest clearing setting with tall trees, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, timeless illustrated-storybook charm, soft-edged rendering with gentle atmospheric depth, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, one clear location, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos, use reference images only for the peacock's exact design and art style, never for composition or layout
+```
+
+### Shot 7 — Moral
+
+✅ **Locked — generation `50ec919a-d570-4566-a247-6c9357b1465c`** (`seedream_v4_5`,
+9:16, high quality, 1 credit). Took 2 attempts — see below.
+
+```
+A single continuous unbroken forest scene, one camera, one consistent depth of field, no split screen, no panel divide, no dividing lines, the same majestic peacock mascot perched gracefully on a tree branch in the forest, an elaborate full crown-like halo of peacock-eye feathers radiating all the way around the head like a sunburst, each feather tipped with a classic blue-and-gold peacock eye-spot pattern, a small jeweled gold tiara at the center front of the head, small gold-rimmed reading glasses, large sparkling warm brown eyes, tail feathers trailing elegantly downward not fully fanned, addressing the camera directly with a warm, reassuring, knowing expression, gentle closing smile, as if wrapping up a story and sharing its lesson, soft warm golden sunlight filtering through leaves, bright daytime warm lighting matching a sunny forest clearing, not dusk, not blue-toned, forest clearing setting with tall trees, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, timeless illustrated-storybook charm, soft-edged rendering with gentle atmospheric depth, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, one clear location, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos, use reference images only for the peacock's exact character design and art style, never for composition or layout
+```
+
+**Attempt 1 rejected** (job `02672a65`) — used a simpler crest description
+and "warm late-afternoon" lighting, producing a visibly different crest
+shape from Shot 1 (compact top-fan of plain plumes vs. Shot 1's full
+radiating halo of eye-spot feathers) and a cooler dusk-toned background.
+Since Shots 1 and 7 bookend the same video as the same host character,
+matching crest design and lighting between them was corrected for in
+attempt 2 (locked above) by explicitly describing Shot 1's exact crest
+structure and demanding daytime warm lighting rather than relying on
+"same as before" phrasing alone.
+
+**All 7 shots for fable #1 are now locked.** Next stage: animation.
 
 **Aspect ratio for all shots:** 9:16 (vertical, matches the final Shorts format).
 
