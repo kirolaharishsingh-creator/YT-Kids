@@ -19,7 +19,13 @@ the wrong mascot job ID got attached by mistake:**
   anchors the palette, lighting, and magical atmosphere
 
 **Model:** `seedream_v4_5` (same as both locked references)
-**Aspect ratio:** 9:16 · **Quality:** high
+**Aspect ratio:** 16:9 (not 9:16 — this is a pure reference sheet, never
+shown directly, only fed into other generations; a side-by-side "lion left,
+rabbit right" layout wants a wide frame, same reasoning as why the mascot
+turnaround and jungle sheet are both 16:9. 9:16 was an earlier mistake here,
+carried over by pattern-matching the final video's vertical format when it
+didn't apply.)
+**Quality:** high
 **Cost:** 1 credit (confirmed via preflight; multiple references don't add cost)
 
 ---
