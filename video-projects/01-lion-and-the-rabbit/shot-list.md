@@ -38,9 +38,26 @@ matches every other fable's forest.
 
 ### Shot 2 — Setup
 
+✅ **Locked — generation `ac8e275e-9005-4659-84f5-67688edfb0af`** (`seedream_v4_5`,
+9:16, high quality, 1 credit). Took 5 attempts to land — see
+`shot-2-iteration-log.md` in this folder for the full history (each attempt
+fixed one issue and regressed another: a background seam from the jungle
+reference's multiple panels blending together, and the lion not reading as
+dominant/feared). Final locked prompt below.
+
 ```
-A wide forest clearing scene, an imposing golden-maned lion standing tall and arrogant at the center, a group of forest animals — deer, monkeys, small birds — bowing nervously in a loose circle around him, a small brown rabbit standing calmly at the front of the group, dappled warm sunlight filtering through trees, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, timeless illustrated-storybook charm, soft-edged rendering with gentle atmospheric depth, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, one clear forest-clearing location, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos
+A single unbroken forest clearing scene, one continuous camera view, one consistent depth of field, not a split-screen, no panels, no seams, no dividing lines, one seamless painted environment, an imposing golden-maned lion standing tall and arrogant at the center on slightly raised ground, clearly the largest and most powerful figure in the frame, surrounded by forest animals each showing distinct individual fearful body language: on the left, one spotted deer frozen mid-step with ears pinned back and tail tucked low, ready to bolt; further left, a second spotted deer crouched low with front legs bent, head turned away avoiding the lion's gaze; on the right, one monkey curled small with arms wrapped around itself, shoulders hunched up to its ears; further right, a second monkey backing away on all fours, glancing back over its shoulder in fear; in front, four small birds each in a different startled pose — one with wings half-raised as if about to flee, one crouched flat to the ground, one facing away, one looking up wide-eyed — scattered unevenly, not in a row, not symmetrical; a small brown rabbit sitting calmly and unafraid at the very front of the group closest to camera, upright and relaxed, a clear visual contrast to every other animal's fear, dappled warm sunlight filtering through trees, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, timeless illustrated-storybook charm, soft-edged rendering with gentle atmospheric depth, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos, no mirrored poses, no duplicate animal poses, no symmetrical left-right layout
 ```
+
+**Known limitation, accepted:** the model rendered 1 deer + 1 monkey + 4
+birds instead of the requested 2 deer + 2 monkeys — a smaller "bowing
+crowd" than scripted, but this is also why the mirroring problem
+disappeared (nothing duplicate left to mirror). Traded a bigger crowd for
+correct staging, no seam, and real fear in the body language.
+
+**Reference for Shots 3-6:** feed generation `ac8e275e-9005-4659-84f5-67688edfb0af`
+as `image_references` (as already planned below) so the lion/rabbit/forest
+match this locked shot exactly.
 
 ### Shot 3 — Trick (a)
 
