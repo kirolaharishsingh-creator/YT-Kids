@@ -53,12 +53,17 @@ belong to the same show.
 ## How to use the locked reference
 
 Whenever a fable's scene needs one of these landmarks, feed the locked
-generation in as an `image_references` input on that shot's generation —
-same technique as the mascot reference, applied to places instead of
-characters. This can be done two ways:
-- **By Higgsfield job ID** (works today, no file needed): pass
-  `e397fad4-d452-47c8-a77d-ae5050fbf224` as the media value with role
-  `image_references` on any Higgsfield generation.
+reference in as an `image_references` input on that shot's generation — same
+technique as the mascot reference, applied to places instead of characters.
+Three ways, in order of preference:
+- **By Higgsfield Element (preferred):** search/select **`Neelvan-Forest`**
+  (id `e59c0df0-180e-4d97-9ca1-4ac2a550ef36`, category: environment) in
+  Higgsfield's element picker. Named and thumbnailed, so there's no risk of
+  grabbing the wrong reference by mistake (a raw job ID mix-up already
+  happened once with the mascot reference — this is exactly why Elements
+  exist).
+- **By Higgsfield job ID:** pass `e397fad4-d452-47c8-a77d-ae5050fbf224` as
+  the media value with role `image_references`.
 - **By file** (once uploaded to the repo): `world-bible/neelvan-location-sheet.png`.
 
 ## Status

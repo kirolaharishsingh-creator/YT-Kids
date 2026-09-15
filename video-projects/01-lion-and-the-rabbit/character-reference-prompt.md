@@ -7,12 +7,16 @@ its own throwaway cast per `character-bible/style-guide.md`).
 
 **Style-matching approach:** feed BOTH locked references in as
 `image_references` together, so this generation is anchored to the whole
-established world, not just the text description:
-- **Mascot** (job `4ec59e46-1a00-4a0c-9af4-494798847350`) — anchors the
-  character-rendering style (painterly detail, expressive faces, fur/feather
-  treatment)
-- **Jungle** (job `e397fad4-d452-47c8-a77d-ae5050fbf224`) — anchors the
-  palette, lighting, and magical atmosphere
+established world, not just the text description. **Use the Higgsfield
+Elements by name (preferred) — this is what went wrong on attempt 1, where
+the wrong mascot job ID got attached by mistake:**
+- **`Peacock-Mascot`** Element (id `0a34bbe6-8903-42b3-b56d-28b076ccfc6b`) —
+  anchors the character-rendering style (painterly detail, expressive faces,
+  fur/feather treatment). **Do NOT use job `8da7e0b2` — that was the
+  rejected cinematic-3D mascot candidate and is almost certainly why attempt
+  1 came out as a 3D render.**
+- **`Neelvan-Forest`** Element (id `e59c0df0-180e-4d97-9ca1-4ac2a550ef36`) —
+  anchors the palette, lighting, and magical atmosphere
 
 **Model:** `seedream_v4_5` (same as both locked references)
 **Aspect ratio:** 9:16 · **Quality:** high

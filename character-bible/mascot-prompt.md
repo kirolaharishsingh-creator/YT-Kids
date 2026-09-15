@@ -22,6 +22,7 @@ the full art-style rationale
 | **Source** | https://higgsfield.ai/s/RwOrcnzJmlM |
 | **File in repo** | ✅ `character-bible/mascot-peacock-final.png` |
 | **Fixes vs. prior version** | All four turnaround views now fully uncropped with proper margin; reading glasses now visible and consistent across every view (including the temple arms visible from the back view) |
+| **Higgsfield Element** | **`Peacock-Mascot`** (id `0a34bbe6-8903-42b3-b56d-28b076ccfc6b`, category: character) — **use this by name for all future generations** instead of the raw job ID, to avoid ever picking the wrong reference by mistake |
 
 ---
 
@@ -59,5 +60,6 @@ Wide horizontal composition, equal spacing, all four characters completely visib
 CRITICAL: EXACT SAME CHARACTER in every view. No redesign, no different face, no changed accessories, no altered colors or proportions, no extra limbs, eyes or beaks, no distortion, no text, labels or watermark.
 ```
 
-**`mascot-peacock-final.png` is the reference image to pass via
-`image_references` on every future mascot shot, in every fable.**
+**Use the `Peacock-Mascot` Element (preferred) or `mascot-peacock-final.png`
+as the reference to pass via `image_references` on every future mascot
+shot, in every fable.**
