@@ -34,6 +34,34 @@ Keep a fixed prompt fragment (the lines above, condensed) and append it to
 every single generation prompt, fable after fable, so the model's output stays
 visually consistent even though the animal/human cast changes each time.
 
+## Standing prompt rule: anti-split-screen language (every in-scene shot)
+
+**Recurring bug, now hit twice** (fable #1's Shot 3, fable #2's Shot 2):
+whenever a fable's locked character reference is itself a two-character
+side-by-side sheet (which every fable-specific reference is, by design —
+see `video-projects/<fable>/character-reference-prompt.md`), any in-scene
+shot whose own content also splits into two distinct halves (two
+characters facing each other, or two groups/subjects on either side) can
+cause the model to pull the reference sheet's own side-by-side layout
+directly into the generated scene — a literal vertical seam with a
+visible dividing line, sometimes with near-duplicated content on both
+sides.
+
+**Include this language in every single in-scene generation prompt for
+every future fable, proactively, not just after the bug shows up:**
+
+> "A single full immersive forest scene, NOT a reference sheet, NOT two
+> separate character portraits, ignore any grid or side-by-side layout
+> from reference images entirely — use references only for character
+> design, fur colour, and art style, never for composition or framing,
+> one continuous unbroken environment, one camera, one consistent depth
+> of field, absolutely no vertical line, no seam, no border, no split
+> screen, no diptych, no panel divide anywhere in the image."
+
+See `video-projects/01-lion-and-the-rabbit/shot-3-iteration-log.md` and
+`video-projects/02-banyan-deer/shot-list.md` (Shot 2 section) for the full
+diagnosis and confirmed fix each time this recurred.
+
 ## Recurring host: the narrator mascot
 
 To give the channel a recognizable face despite the cast changing every video,
@@ -91,11 +119,17 @@ the mascot's visual design.
 - **Single-narrator format, confirmed standing rule.** The mascot/storyteller
   voice reads the entire narration for every fable, including other
   characters' lines as quoted speech within the narration. No character
-  besides the mascot gets a distinct voice or lip-sync. Only the mascot's
-  own on-screen shots are lip-synced (Wan 2.7); every other character acts
-  physically on screen but is never shown "talking." Keeps production fast
-  and matches how most short-form fable content handles narration — don't
-  revisit this per-fable, it applies channel-wide.
+  besides the mascot gets a distinct voice or lip-sync — including the
+  mascot itself. The mascot's hook/moral shots use **generic talking
+  motion** (beak opening/closing naturally, not synced to specific words),
+  not precise audio-driven lip-sync — Wan 2.7 lip-sync was tried on fable
+  #1 and abandoned after an unresolved backend bug (see
+  `video-projects/01-lion-and-the-rabbit/lip-sync-audio.md`). This turned
+  out to be a genuine improvement, not just a workaround: generic motion
+  means the same two mascot clips are **reused as evergreen footage across
+  every fable**, with just that fable's hook/moral audio placed underneath
+  in editing — no new mascot generation needed per fable. Don't revisit
+  this per-fable, it applies channel-wide.
 
 ## On-screen text
 
