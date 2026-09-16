@@ -27,7 +27,7 @@ freely in `video-projects/`.
 **002 — The Monkey and the Crocodile** ✅
 > A monkey and a crocodile were friends, until the crocodile's wife demanded the monkey's heart as a delicacy. The crocodile offered him a ride home to "fetch" it — the monkey realized the trap mid-river and claimed he'd left his heart on his tree. Moral: quick thinking can save your life.
 
-**003 — The Blue Jackal** ✅
+**003 — The Blue Jackal** ✅ *(fact-checked and scripted — see `scripts/blue-jackal.md`)*
 > A jackal fell into a vat of blue dye and, seeing his strange new color, convinced the forest he was a king sent to rule them. He lived like royalty — until a chorus of jackals howling at night made him forget himself and howl back, exposing him. Moral: a borrowed disguise never survives your true nature.
 
 **004 — The Talkative Tortoise** ✅
