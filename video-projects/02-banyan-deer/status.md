@@ -8,7 +8,7 @@
 | Shot list | ✅ Done |
 | Mascot shots | ✅ Reused from fable #1 (no new generation needed — see `shot-list.md`) |
 | Character reference (deer + king) | ✅ Locked — Element `Deer-King-Fable2` (see `shot-list.md` and `character-reference-log.md`) |
-| Visuals generated (Shots 2-6 only) | 🟡 In progress — Shots 2 (`ee8d28cb`), 3 (`4ffbe273`), 4 (`f7eaa97f`) locked, Shots 5-6 remaining |
+| Visuals generated (Shots 2-6 only) | 🟡 In progress — Shots 2 (`ee8d28cb`), 3 (`4ffbe273`), 4 (`f7eaa97f`), 5 (`b73d4080`) locked, Shot 6 remaining |
 | Voiceover recorded | ⚠️ Script trimmed to ~40 words (from 78), retargeted to 30s total — not yet regenerated to confirm actual duration (see `scripts/banyan-deer.md`'s Length note) |
 | Edited | ⬜ Not started |
 | Thumbnail | ⬜ Not started |
