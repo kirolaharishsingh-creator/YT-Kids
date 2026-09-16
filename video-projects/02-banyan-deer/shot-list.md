@@ -10,7 +10,7 @@ from `character-bible/style-guide.md`.
 | 3 | Turn (a) | Pregnant doe pleading before the Branch Deer's leader, who turns away | ✅ `4ffbe273-700f-4e08-9420-52c49e9ad248` (accepted with known limitations — see below) |
 | 4 | Turn (b) | Doe approaching the golden Banyan Deer instead; he steps forward | ✅ `f7eaa97f-ac2f-4395-99ba-860b0bb57e01` |
 | 5 | Payoff (a) | King, blade raised, frozen at the sight of the golden deer kneeling calmly before him | ✅ `b73d4080-3a57-4943-be5c-fc6aa9d789ac` |
-| 6 | Payoff (b) | Close on the king's expression shifting from confusion to awe | New generation |
+| 6 | Payoff (b) | Close on the king's expression shifting from confusion to awe | ✅ `4b5a1f28-e4ae-4845-8bf7-b506dfd122d2` |
 | 7 | Moral | Peacock mascot again, same reference as shot 1 | ✅ **Reused from fable #1** — generic-talking clip `3abdf454-7684-460a-a2d2-7af777ae1fca`, no new generation. This fable's moral audio gets placed under the existing footage in editing. |
 
 **Voiceover:** one continuous narration track per `scripts/banyan-deer.md`,
@@ -136,6 +136,27 @@ impact is depicted, consistent with the script's non-graphic requirement.
 
 **Reference for Shot 6:** feed `Deer-King-Fable2` and `Neelvan-Forest`
 Elements, same as this shot.
+
+### Shot 6 — Payoff (b)
+
+✅ **Locked — generation `4b5a1f28-e4ae-4845-8bf7-b506dfd122d2`** (`seedream_v4_5`,
+9:16, high quality, 1 credit). First attempt approved. No split-screen, no
+landmark bleed, deer correctly kept soft/out-of-focus at frame edge, and
+the king's expression reads as genuine wonder (eyes wide, lips parted,
+softened brow) rather than pure shock. Final locked prompt below.
+
+```
+A single continuous close-up shot, ONE camera, one consistent depth of field, no split screen, no panel divide, no dividing lines, no seam — a close, intimate framing on the human King's face and upper body, his expression caught mid-transition from confusion to dawning awe: brow softening, eyes widening slightly with wonder rather than shock, the hard tension of the previous moment melting into something gentler and moved, lips slightly parted. At the very edge of frame, softly out of focus, a hint of golden fur and antler shape — the kneeling Banyan Deer, present but not the focus, just enough to anchor the moment without pulling attention from the king's face. Warm dappled sunlight catching the side of his face, plain forest backdrop softly blurred behind him, no ancient well, no waterfall, no great banyan tree landmark, no additional landmarks. Classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, timeless illustrated-storybook charm, soft-edged rendering with gentle atmospheric depth, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, vertical 9:16 composition, sharp focus on the face, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos
+```
+
+**Minor note, accepted:** at this close framing, the rendering leans
+slightly more polished/"anime digital painting" (smooth airbrushed skin
+shading, glossy hair highlights) than the flatter storybook style
+elsewhere — subtle at normal viewing size, accepted rather than re-run.
+
+**All 5 new story shots (2-6) for fable #2 are now locked.** Only the
+voiceover (needs regenerating against the trimmed 30s-target script) and
+animation pass remain before this fable is edit-ready.
 
 **Lessons carried over from fable #1's production** (see
 `video-projects/01-lion-and-the-rabbit/shot-2-iteration-log.md` and
