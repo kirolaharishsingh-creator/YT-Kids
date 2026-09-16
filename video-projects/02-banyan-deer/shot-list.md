@@ -194,7 +194,12 @@ the voiceover being regenerated first.
 | 3 — Turn (a) | Pregnant doe shifting anxiously, ears twitching back, pleading posture with subtle imploring movement, the older leader deer slowly turning his body and head away dismissively, subtle ambient forest motion in leaves and dappled light | ✅ Locked — `e4d7a06c-ef42-410b-98de-0c793fba9241`, 6 credits |
 | 4 — Turn (b) | The golden Banyan Deer walking forward, closing the distance toward the pregnant doe, moving INTO the frame toward her, not backing away, not retreating, not stepping back — clearly advancing with calm resolute purpose. The pregnant doe walking forward to meet him with hopeful urgency. Both deer moving toward each other, the gap between them visibly closing. | ✅ Locked — `755b9992-5098-4a50-8a6f-99b3cfaefb93`, 6 credits (took 2 attempts — attempt 1, `6121eed2`, had the Banyan Deer stepping BACKWARD instead of forward, the opposite of the intended "committing to help her" motion; fixed with explicit "moving INTO the frame... not backing away, not retreating" language) |
 | 5 — Payoff (a) | The king's raised sword trembling slightly but staying frozen in place, not swinging, not striking, his eyes widening with dawning shock and hesitation, his robe and cape shifting gently in a breeze, the golden Banyan Deer remaining calm and still, breathing softly, eyes steady, subtle ambient forest motion in leaves and dappled light | ✅ Locked — `27d0b442-0706-40cf-a02e-35aff15bc038`, 6 credits |
-| 6 — Payoff (b) | TBD | ⬜ Not started |
+| 6 — Payoff (b) | The king's face softening slowly, his eyes shifting from wide shock to gentle wonder, his brow relaxing, a small breath escaping his slightly parted lips, subtle emotional transition playing across his expression, hair and cape moving gently in a breeze, the golden Banyan Deer softly out of focus at the frame edge remaining still | ✅ Locked — `ed7e4acd-9b4d-427c-b587-f7e1b22f1be6`, 6 credits |
+
+**All 5 story shots (2-6) for fable #2 are now animated — 30 credits
+total** (6+6+6+6+6), matching the confirmed 30s duration plan (mascot
+shots already fixed at 5s each, reused from fable #1). Only the final
+edit/stitching remains for the story portion.
 
 **Shot 2 animation notes:** approved on first attempt — deer herd reacts
 naturally to the approaching hunting party (turning toward them), motion
