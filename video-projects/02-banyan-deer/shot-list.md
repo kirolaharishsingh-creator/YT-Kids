@@ -174,3 +174,28 @@ prompt for Shots 2–6:
 - Describe fear/tension/emotion with specific physical cues (ears back,
   tail tucked, hunched shoulders) rather than generic adjectives like
   "nervous," which tends to render as calm/neutral instead.
+
+---
+
+## Animation pass (Kling) — in progress
+
+**Settings:** `kling3_0`, sound **off** (confirmed — ambience/SFX will be
+sourced separately as a continuous track rather than per-shot Kling audio,
+which would cut in/out awkwardly between 4s clips), 9:16, duration fixed
+per shot (not matched to voiceover this time — see below).
+
+**Duration plan:** 5 story shots × 4s (uniform) + 2 mascot shots × 5s
+(reused from fable #1) = 30s total. Confirmed target, not dependent on
+the voiceover being regenerated first.
+
+| Shot | Motion prompt | Status |
+|---|---|---|
+| 2 — Setup | Deer herds shifting gently, ears twitching, subtle ambient forest motion in leaves and dappled light, the golden Banyan Deer standing calm and still, distant king's hunting party slowly approaching on horseback along the path | ✅ Locked — `8d8e2eac-8fa9-45a8-b52a-c9f58638d1e0`, 6 credits |
+| 3 — Turn (a) | TBD | ⬜ Not started |
+| 4 — Turn (b) | TBD | ⬜ Not started |
+| 5 — Payoff (a) | TBD | ⬜ Not started |
+| 6 — Payoff (b) | TBD | ⬜ Not started |
+
+**Shot 2 animation notes:** approved on first attempt — deer herd reacts
+naturally to the approaching hunting party (turning toward them), motion
+reads smoothly.
