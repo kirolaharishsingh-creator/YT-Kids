@@ -12,10 +12,11 @@
 | Narrator voice locked | ✅ Done (Isla, see `character-bible/style-guide.md`) |
 | Visuals generated | ✅ Done — all 7 shots locked (see `shot-list.md`) |
 | Voiceover recorded | ✅ Approved (job `3de96755`, Isla, 33.7s — see `shot-list.md` for how this reshaped the animation timing) |
-| Lip-sync audio clips (hook/moral) | ✅ Approved (hook `a88efebc`, moral `58c6ac82`, Isla) — see `lip-sync-audio.md` |
-| Animation (Kling, Shots 2-6) | ⬜ Not started |
-| Lip-sync animation (Wan 2.7, Shots 1 & 7) | ⬜ Not started |
-| Edited | ⬜ Not started |
+| Mascot lip-sync | ⚠️ Wan 2.7 approach abandoned (unresolved backend bug, see `lip-sync-audio.md`) — replaced with Kling generic-talking motion, which doubles as reusable evergreen mascot footage for every future fable |
+| Animation (Kling, all 7 shots) | ✅ Done — 51 credits total, see `shot-list.md` |
+| Edited | ⬜ Not started — full assembly instructions ready in `edit-stitching-guide.md` |
+| Background music | ⬜ Not chosen yet (evergreen track, reused channel-wide — in progress) |
+| Animal SFX | ⬜ Not sourced yet (evergreen pack, reused channel-wide — in progress) |
 | Thumbnail | ⬜ Not started |
 | Exported | ⬜ Not started |
 | Uploaded | ⬜ Not started |

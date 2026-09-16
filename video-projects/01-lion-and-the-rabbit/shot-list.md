@@ -183,16 +183,26 @@ narration segment.
 
 | Shot | Beat | Narration segment | Clip length | Motion prompt | Status |
 |---|---|---|---|---|---|
-| 1 | Hook | "What happens when the forest's biggest bully picks on the wrong rabbit?" | 5s | Gentle idle sway, feathers softly shifting, blinking, addressing camera with warm expression | ⚠️ Blocked — Wan 2.7 failing, see `lip-sync-audio.md` |
+| 1 | Hook | "What happens when the forest's biggest bully picks on the wrong rabbit?" | 5s | Beak opening/closing naturally, generic talking motion (not lip-synced to specific words — see below), gentle idle sway, blinking, warm expression | ✅ Locked — `6a35ec14-57c1-4bba-8243-7e8be5f48e61` (Kling), 7.5 credits |
 | 2 | Setup | "Every animal had to send the lion food, or he'd hunt them all himself. Today, it was the rabbit's turn." | 6s | Animals shifting nervously, lion's mane rippling slightly, subtle ambient forest motion (leaves, light) | ✅ Locked — `9c1ca421-1493-4c03-9858-ccfdf7900328`, 9 credits |
 | 3 | Trick (a) | "Forgive me, said the rabbit. Another lion in this forest tried to stop me, and said he rules here now." | 6s | Rabbit walking forward calmly, lion's chest heaving with anger, tail flicking | ✅ Locked — `cf8c319d-16d7-465b-b464-c16435ad89f5`, 9 credits |
 | 4 | Trick (b) | "The lion roared. Show me." | 4s | Rabbit gesturing toward the well, lion leaning forward to look, cautious movement | ✅ Locked — `26cff6df-ac7f-4a9f-8451-c127a2e74efc`, 6 credits |
 | 5 | Payoff (a) | "The lion saw his rival..." | 4s | Water rippling gently, reflection wavering, lion's reflected face reacting with sudden fury | ✅ Locked — `b506c4b9-305e-4cfb-b4ea-281688786d0c`, 6 credits |
 | 6 | Payoff (b) | "...and leapt in to fight him." | 4s | Water rippling outward from a splash, then slowly settling to stillness | ✅ Locked — `cff6aa5f-f39a-4573-a692-54746f204e0a`, 6 credits (aftermath-only by design — the jump itself is carried by narration, not shown on screen; confirmed intentional) |
-| 7 | Moral | "Moral of the story? Cleverness beats a bully every time." | 5s | Gentle idle sway, warm reassuring expression, subtle feather shimmer | ⚠️ Blocked — Wan 2.7 failing, see `lip-sync-audio.md` |
+| 7 | Moral | "Moral of the story? Cleverness beats a bully every time." | 5s | Beak opening/closing naturally, generic talking motion, warm reassuring expression, subtle feather shimmer | ✅ Locked — `3abdf454-7684-460a-a2d2-7af777ae1fca` (Kling), 7.5 credits |
 
-**Cost, updated for variable durations:** ~1.5 credits/sec (sound off) ×
-~34s total ≈ **~51 credits** for the fully animated pilot (up from the
-original ~31.5 credit estimate, because the video is now ~34s instead of
-~18-20s). Confirm exact per-clip cost via `get_cost` before submitting each
-one, same as the still-image workflow.
+**Mascot lip-sync, final approach:** Wan 2.7 lip-sync (audio-driven, tied to
+this fable's exact English words) hit an unresolved backend bug — see
+`lip-sync-audio.md`. Switched to Kling with **generic talking motion**
+instead (beak movement not tied to specific words), which has the added
+benefit of making Shots 1 & 7 reusable as evergreen mascot footage across
+every future fable — see `video-projects/02-banyan-deer/shot-list.md` and
+`video-projects/03-blue-jackal/shot-list.md`, which both reuse these exact
+two clips instead of generating new mascot shots.
+
+**Total animation cost:** 9+9+6+6+6+7.5+7.5 = **51 credits** for all 7
+shots, matching the earlier estimate (variable per-shot duration, ~34s
+total runtime for a 33.7s voiceover).
+
+**All 7 shots are now animated.** Next stage: stitch into the final video
+— see `edit-stitching-guide.md` in this folder.
