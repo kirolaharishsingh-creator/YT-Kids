@@ -7,7 +7,7 @@ from `character-bible/style-guide.md`.
 |---|------|------|--------------|
 | 1 | Hook | Peacock mascot on branch, addressing camera, warm expression | ✅ **Reused from fable #1** — generic-talking clip `6a35ec14-57c1-4bba-8243-7e8be5f48e61`, no new generation. This fable's hook audio gets placed under the existing footage in editing. |
 | 2 | Setup | Wide: two deer herds in a forest clearing, king's hunting party approaching in the distance, golden Banyan Deer standing apart | ✅ `ee8d28cb-3041-4662-be78-4ce5091673f9` |
-| 3 | Turn (a) | Pregnant doe pleading before the Branch Deer's leader, who turns away | New generation |
+| 3 | Turn (a) | Pregnant doe pleading before the Branch Deer's leader, who turns away | ✅ `4ffbe273-700f-4e08-9420-52c49e9ad248` (accepted with known limitations — see below) |
 | 4 | Turn (b) | Doe approaching the golden Banyan Deer instead; he steps forward | New generation |
 | 5 | Payoff (a) | King, blade raised, frozen at the sight of the golden deer kneeling calmly before him | New generation |
 | 6 | Payoff (b) | Close on the king's expression shifting from confusion to awe | New generation |
@@ -58,6 +58,38 @@ A single full immersive forest scene, NOT a reference sheet, NOT two separate ch
 composition/layout" language proactively, not just shots that show both
 characters together — the split-screen risk applies whenever the scene's
 own content happens to divide into two distinct halves.
+
+### Shot 3 — Turn (a)
+
+✅ **Locked — generation `4ffbe273-700f-4e08-9420-52c49e9ad248`** (`seedream_v4_5`,
+9:16, high quality, 1 credit). Took 3 attempts — see
+`character-reference-log.md`-style history below. **Accepted with two
+known limitations**, both explicitly approved rather than fixed:
+
+1. **Landmark bleed:** the background pulled in the Great Banyan Tree
+   (lanterns, vines) and a waterfall from the `Neelvan-Forest` multi-panel
+   reference, instead of the plain clearing the prompt asked for. Root
+   cause: `Neelvan-Forest` alone (not just `Deer-King-Fable2`) can bleed
+   multiple panels together — the prompt for this shot didn't include the
+   explicit landmark exclusions ("no waterfall, no banyan tree, no
+   additional landmarks") that fixed this same issue in fable #1's Shot 3.
+   **Add that exclusion language proactively to Shots 4-6's prompts.**
+2. **Understated emotion:** neither deer's "pleading" or "dismissive"
+   body language reads strongly at this framing/distance — both look
+   fairly neutral/calm rather than actively imploring or refusing.
+
+```
+A single full immersive forest scene, NOT a reference sheet, NOT two separate character portraits, ignore any grid or side-by-side layout from reference images entirely — use references only for palette and art style, never for composition or framing, one continuous unbroken environment, one camera, one consistent depth of field, absolutely no vertical line, no seam, no border, no split screen, no diptych, no panel divide anywhere in the image, both characters exist together naturally in the same integrated space, sharing the same depth of field and lighting, not mirrored, not facing each other across a centerline divide. A pregnant doe, visibly rounded belly, ordinary brown fur, standing at a natural angle with an imploring, pleading posture, ears back, head slightly lowered. Facing her at a different angle and distance within the same continuous space, an older, senior-looking brown deer with large antlers denoting leadership — the Branch Deer's leader — turning his body away dismissively, unmoved expression, refusing her. Both deer clearly occupy the same forest ground, overlapping naturally in perspective the way two animals sharing a real physical space would. Dappled warm sunlight filtering through trees, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, timeless illustrated-storybook charm, soft-edged rendering with gentle atmospheric depth, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, one clear location, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos
+```
+
+**Note:** this locked version does NOT feed the `Deer-King-Fable2` Element
+(neither deer here is the locked Banyan Deer or King) — only
+`Neelvan-Forest`. This avoided the split-screen bug entirely (unlike an
+earlier attempt that re-added `Deer-King-Fable2` and split again despite
+much stronger anti-split-screen language, confirming that reference is a
+strong enough visual pull that removing it is more reliable than
+instructing around it whenever it isn't actually needed for character
+identity).
 
 **Lessons carried over from fable #1's production** (see
 `video-projects/01-lion-and-the-rabbit/shot-2-iteration-log.md` and
