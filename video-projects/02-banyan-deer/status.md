@@ -11,7 +11,7 @@
 | Visuals generated (Shots 2-6 only) | ✅ Done — all 5 shots locked (`ee8d28cb`, `4ffbe273`, `f7eaa97f`, `b73d4080`, `4b5a1f28`) |
 | Voiceover recorded | ⚠️ Script trimmed to ~40 words (from 78) — decided not to regenerate for now; animation durations are fixed independent of voiceover length (see below) |
 | Animation (Kling, Shots 2-6) | ✅ Done — all 5 shots locked (`8d8e2eac`, `e4d7a06c`, `755b9992`, `27d0b442`, `ed7e4acd`), 30 credits total |
-| Edited | ⬜ Not started |
+| Edited | 🟡 In progress — full assembly instructions ready in `edit-stitching-guide.md` |
 | Thumbnail | ⬜ Not started |
 | Exported | ⬜ Not started |
 | Uploaded | ⬜ Not started |
