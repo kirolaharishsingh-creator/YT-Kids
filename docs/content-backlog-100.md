@@ -33,7 +33,7 @@ freely in `video-projects/`.
 **004 — The Talkative Tortoise** ✅ *(fact-checked and scripted — see `scripts/talkative-tortoise.md`)*
 > Two geese offered to fly their tortoise friend to a new pond by having him grip a stick in his mouth while they carried the ends. He was warned not to speak mid-flight — but when children below mocked him, he opened his mouth to answer back, and fell. Moral: loose lips undo you.
 
-**005 — The Musical Donkey** ✅
+**005 — The Musical Donkey** ✅ *(fact-checked and scripted — see `scripts/musical-donkey.md`)*
 > A donkey working nights with a jackal insisted on singing despite every warning that his braying would wake the farmers. He sang anyway, was caught, and beaten. Moral: vanity invites danger.
 
 **006 — The Merchant's Iron Scales** ✅
