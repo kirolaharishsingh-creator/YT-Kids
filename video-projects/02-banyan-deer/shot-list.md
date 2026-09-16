@@ -16,10 +16,20 @@ from `character-bible/style-guide.md`.
 **Voiceover:** one continuous narration track per `scripts/banyan-deer.md`,
 same voice/TTS setting as fable #1.
 
-**Status:** ready to generate Shots 2–6 (the only shots this fable actually
-needs — mascot shots are fully reused, see above). A fable-specific
-character reference sheet (deer + king) should be generated and locked
-first, same process as `video-projects/01-lion-and-the-rabbit/character-reference-prompt.md`.
+**Status:** ✅ character reference locked — ready to generate Shots 2–6
+(the only shots this fable actually needs — mascot shots are fully
+reused, see above).
+
+**Character reference — locked.** ✅ **`Deer-King-Fable2`** Element (id
+`4b1f663c-446c-4705-a985-4185a0eda381`) — golden Banyan Deer (natural
+branching antlers, deep golden-amber fur) and the human King (simple gold
+crown, red/gold royal robes), painterly storybook style, clean white
+background. Locked generation `73afd901-e3c5-4199-b296-91dda007dab8`
+(a text-cleanup edit of `029638c5`, removing stray on-image text). Took 2
+full attempts plus one text-fix pass — see `character-reference-log.md`
+in this folder for the iteration history. Feed this Element into Shots
+2-6 via `<<<4b1f663c-446c-4705-a985-4185a0eda381>>>` for consistent
+character design.
 
 **Location consistency:** Shots 2–6 use the **`Neelvan-Forest`** Element
 (id `e59c0df0-180e-4d97-9ca1-4ac2a550ef36`) — the same locked jungle
