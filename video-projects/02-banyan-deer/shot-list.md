@@ -191,7 +191,7 @@ the voiceover being regenerated first.
 | Shot | Motion prompt | Status |
 |---|---|---|
 | 2 — Setup | Deer herds shifting gently, ears twitching, subtle ambient forest motion in leaves and dappled light, the golden Banyan Deer standing calm and still, distant king's hunting party slowly approaching on horseback along the path | ✅ Locked — `8d8e2eac-8fa9-45a8-b52a-c9f58638d1e0`, 6 credits |
-| 3 — Turn (a) | TBD | ⬜ Not started |
+| 3 — Turn (a) | Pregnant doe shifting anxiously, ears twitching back, pleading posture with subtle imploring movement, the older leader deer slowly turning his body and head away dismissively, subtle ambient forest motion in leaves and dappled light | ✅ Locked — `e4d7a06c-ef42-410b-98de-0c793fba9241`, 6 credits |
 | 4 — Turn (b) | TBD | ⬜ Not started |
 | 5 — Payoff (a) | TBD | ⬜ Not started |
 | 6 — Payoff (b) | TBD | ⬜ Not started |
