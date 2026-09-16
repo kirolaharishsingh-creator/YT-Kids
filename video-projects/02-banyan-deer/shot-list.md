@@ -8,7 +8,7 @@ from `character-bible/style-guide.md`.
 | 1 | Hook | Peacock mascot on branch, addressing camera, warm expression | ✅ **Reused from fable #1** — generic-talking clip `6a35ec14-57c1-4bba-8243-7e8be5f48e61`, no new generation. This fable's hook audio gets placed under the existing footage in editing. |
 | 2 | Setup | Wide: two deer herds in a forest clearing, king's hunting party approaching in the distance, golden Banyan Deer standing apart | ✅ `ee8d28cb-3041-4662-be78-4ce5091673f9` |
 | 3 | Turn (a) | Pregnant doe pleading before the Branch Deer's leader, who turns away | ✅ `4ffbe273-700f-4e08-9420-52c49e9ad248` (accepted with known limitations — see below) |
-| 4 | Turn (b) | Doe approaching the golden Banyan Deer instead; he steps forward | New generation |
+| 4 | Turn (b) | Doe approaching the golden Banyan Deer instead; he steps forward | ✅ `f7eaa97f-ac2f-4395-99ba-860b0bb57e01` |
 | 5 | Payoff (a) | King, blade raised, frozen at the sight of the golden deer kneeling calmly before him | New generation |
 | 6 | Payoff (b) | Close on the king's expression shifting from confusion to awe | New generation |
 | 7 | Moral | Peacock mascot again, same reference as shot 1 | ✅ **Reused from fable #1** — generic-talking clip `3abdf454-7684-460a-a2d2-7af777ae1fca`, no new generation. This fable's moral audio gets placed under the existing footage in editing. |
@@ -90,6 +90,31 @@ much stronger anti-split-screen language, confirming that reference is a
 strong enough visual pull that removing it is more reliable than
 instructing around it whenever it isn't actually needed for character
 identity).
+
+### Shot 4 — Turn (b)
+
+✅ **Locked — generation `f7eaa97f-ac2f-4395-99ba-860b0bb57e01`** (`seedream_v4_5`,
+9:16, high quality, 1 credit). First attempt approved — no split-screen, no
+landmark bleed, and clear emotional engagement between both deer. This
+confirms both fixes flagged after Shot 3 worked: explicit landmark
+exclusions plus stronger "actively engaging... clearly visible
+expressions" language, even while keeping `Deer-King-Fable2` in the
+prompt (needed here since the golden Banyan Deer must match his locked
+design). Final locked prompt below.
+
+```
+A single full immersive forest scene, NOT a reference sheet, NOT two separate character portraits, ignore any grid or side-by-side layout from reference images entirely — use references only for character design, fur colour, and art style, never for composition or framing, one continuous unbroken environment, one camera, one consistent depth of field, absolutely no vertical line, no seam, no border, no split screen, no diptych, no panel divide anywhere in the image, both characters exist together naturally in the same integrated space, sharing the same depth of field and lighting, actively engaging with one another, not mirrored, not facing away from each other across a centerline divide.
+A pregnant doe, visibly rounded belly, ordinary brown fur, approaching at a natural three-quarter angle, her face clearly visible, a hopeful, pleading expression, eyes fixed on the deer ahead of her, walking toward him with urgency.
+Facing her, within the same continuous space, the golden-furred Banyan Deer with natural branching antlers, clearly distinct in color and bearing from the ordinary brown doe, stepping forward toward her without hesitation, his face and expression clearly visible, calm, resolute, willing — no fear, no doubt, already committing to help her.
+Both deer clearly react to each other, an unmistakable moment of connection and resolve. Plain forest clearing with tall trees, no ancient well, no waterfall, no great banyan tree landmark, no additional landmarks — just open forest ground. Dappled warm sunlight filtering through trees, classic fairy tale book illustration style, richly detailed painterly watercolor and gouache textures, delicate fine linework, warm whimsical magical atmosphere with soft glowing light, timeless illustrated-storybook charm, soft-edged rendering with gentle atmospheric depth, warm earthy colour palette — terracotta, marigold yellow, leaf green, deep indigo shadows, one clear location, minimal clutter, vertical 9:16 composition, sharp, high resolution, no photorealism, no flat vector, no cel-shading, no 3D render, no text, no watermark, no logos
+```
+
+**Minor note, accepted:** from this angle the doe's pregnancy isn't
+strongly visible (mostly seen from behind/side) — not wrong, just less
+emphasized than a front-facing shot would show.
+
+**Reference for Shots 5-6:** feed `Deer-King-Fable2` and `Neelvan-Forest`
+Elements, same as this shot — Shots 5-6 need the King's locked design.
 
 **Lessons carried over from fable #1's production** (see
 `video-projects/01-lion-and-the-rabbit/shot-2-iteration-log.md` and
