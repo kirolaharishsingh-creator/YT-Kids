@@ -10,7 +10,7 @@
 | Character reference (deer + king) | ✅ Locked — Element `Deer-King-Fable2` (see `shot-list.md` and `character-reference-log.md`) |
 | Visuals generated (Shots 2-6 only) | ✅ Done — all 5 shots locked (`ee8d28cb`, `4ffbe273`, `f7eaa97f`, `b73d4080`, `4b5a1f28`) |
 | Voiceover recorded | ⚠️ Script trimmed to ~40 words (from 78) — decided not to regenerate for now; animation durations are fixed independent of voiceover length (see below) |
-| Animation (Kling, Shots 2-6) | 🟡 In progress — Shots 2 (`8d8e2eac`), 3 (`e4d7a06c`), 4 (`755b9992`) locked, Shots 5-6 remaining |
+| Animation (Kling, Shots 2-6) | 🟡 In progress — Shots 2 (`8d8e2eac`), 3 (`e4d7a06c`), 4 (`755b9992`), 5 (`27d0b442`) locked, Shot 6 remaining |
 | Edited | ⬜ Not started |
 | Thumbnail | ⬜ Not started |
 | Exported | ⬜ Not started |
