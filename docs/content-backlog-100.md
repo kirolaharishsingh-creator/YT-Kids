@@ -30,7 +30,7 @@ freely in `video-projects/`.
 **003 — The Blue Jackal** ✅ *(fact-checked and scripted — see `scripts/blue-jackal.md`)*
 > A jackal fell into a vat of blue dye and, seeing his strange new color, convinced the forest he was a king sent to rule them. He lived like royalty — until a chorus of jackals howling at night made him forget himself and howl back, exposing him. Moral: a borrowed disguise never survives your true nature.
 
-**004 — The Talkative Tortoise** ✅
+**004 — The Talkative Tortoise** ✅ *(fact-checked and scripted — see `scripts/talkative-tortoise.md`)*
 > Two geese offered to fly their tortoise friend to a new pond by having him grip a stick in his mouth while they carried the ends. He was warned not to speak mid-flight — but when children below mocked him, he opened his mouth to answer back, and fell. Moral: loose lips undo you.
 
 **005 — The Musical Donkey** ✅
