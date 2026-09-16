@@ -3,12 +3,12 @@
 | Stage | Status |
 |---|---|
 | Idea | ✅ Done |
-| Research | ⚠️ Draft — needs fact-check against primary Jataka source |
-| Script | ✅ Draft complete |
+| Research | ✅ Fact-checked (see `research/banyan-deer/notes.md`) |
+| Script | ✅ Fact-checked, finalized (see `scripts/banyan-deer.md`) |
 | Shot list | ✅ Done |
-| Mascot design locked | ✅ Done (see `character-bible/mascot-prompt.md`) |
-| Mascot reference file uploaded | ✅ Done (`character-bible/mascot-peacock-final.png`) |
-| Visuals generated | ⬜ Not started |
+| Mascot shots | ✅ Reused from fable #1 (no new generation needed — see `shot-list.md`) |
+| Character reference (deer + king) | ⬜ Not started |
+| Visuals generated (Shots 2-6 only) | ⬜ Not started |
 | Voiceover recorded | ⬜ Not started |
 | Edited | ⬜ Not started |
 | Thumbnail | ⬜ Not started |

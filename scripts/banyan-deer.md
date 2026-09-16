@@ -1,8 +1,8 @@
 # Script: The Banyan Deer's Offer
 
 **Format:** 18 seconds · vertical 9:16 · Jataka Tales fable series
-**Status:** draft — pending fact-check against a primary Jataka translation
-(see `research/banyan-deer/notes.md`)
+**Status:** ✅ fact-checked (see `research/banyan-deer/notes.md`) — ready
+for shot-list/production
 
 ---
 
@@ -54,8 +54,9 @@ confusion to awe.
 **Visual:** Back to the peacock mascot, warm expression.
 **On-screen text:** "Moral: A true leader gives before he takes."
 **Narration (VO):**
-> "Moral of the story? Mercy, answered with mercy — that's what makes a
-> real leader."
+> "Moved by his mercy, the king spared every animal in the forest. Moral
+> of the story? Mercy, answered with mercy — that's what makes a real
+> leader."
 
 ---
 
@@ -64,14 +65,20 @@ confusion to awe.
 - Every in-scene visual prompt must append the fixed style fragment from
   `character-bible/style-guide.md` (fairy tale illustration style, warm
   jewel-toned palette, no photorealism).
-- Mascot must use the locked-in peacock reference image once generated — do
-  not re-describe from text.
+- **Mascot shots (Beats 1 & 5) are fully reused from fable #1 — no new
+  generation needed.** The locked "talking" animation clips (generic beak
+  movement, not tied to specific words — see
+  `video-projects/01-lion-and-the-rabbit/shot-list.md`) work for any
+  narration, so this fable's hook/moral audio gets placed under the
+  existing footage in editing rather than generating new mascot shots.
 - The king's "raised blade" in Beat 4 should read as a frozen, non-graphic
   moment — no violence depicted, the tension is entirely in his expression
   and hesitation, not the weapon.
 - **Voice: single-narrator, confirmed channel-wide.** The mascot/storyteller
   voice reads the entire narration, including the doe's, the Branch Deer's,
   and the king's lines as quoted speech within the narration — none of them
-  get a distinct voice or lip-sync. Only the mascot shots (1 & 5 here) are
-  lip-synced (Wan 2.7).
-- Same narrator voice as fable #1, reused across every future fable.
+  get a distinct voice or lip-sync. The mascot shots aren't lip-synced
+  either (generic talking motion, per above) — this replaces the original
+  Wan 2.7 lip-sync plan, which hit an unresolved backend issue on fable #1
+  (see `video-projects/01-lion-and-the-rabbit/lip-sync-audio.md`).
+- Same narrator voice (Isla) as fable #1, reused across every future fable.
